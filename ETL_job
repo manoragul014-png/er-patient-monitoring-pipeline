@@ -1,0 +1,112 @@
+import sys
+from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
+from awsglue.context import GlueContext
+from awsglue.job import Job
+from pyspark.sql.functions import (
+    col, when, count, avg, unix_timestamp, lit
+)
+
+# ---------------------------
+# 1. Initialize Glue
+# ---------------------------
+args = getResolvedOptions(sys.argv, ['JOB_NAME'])
+
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
+job = Job(glueContext)
+job.init(args['JOB_NAME'], args)
+
+# ---------------------------
+# 2. Read both source files from S3 
+#s3://er-monitoring-bucket/er_raw/onprem/input/er_patient_data_onprem.csv
+#s3://er-monitoring-bucket/er_raw/object/input/er_patient_data_cloud.csv
+#s3://er-monitoring-bucket/er_raw/onprem/input/er_patient_data_cloud.csv
+# ---------------------------
+onprem_path = "s3://er-monitoring-bucket/er_raw/onprem/input/er_patient_data_onprem.csv"
+object_path = "s3://er-monitoring-bucket/er_raw/object/input/er_patient_data_cloud.csv"
+
+onprem_df = spark.read.option("header", "true").csv(onprem_path)
+object_df = spark.read.option("header", "true").csv(object_path)
+
+# Add source tag
+onprem_df = onprem_df.withColumn("source_type", lit("onprem"))
+object_df = object_df.withColumn("source_type", lit("object_storage"))
+
+# ---------------------------
+# 3. Merge both datasets
+# ---------------------------
+df = onprem_df.unionByName(object_df)
+
+# ---------------------------
+# 4. Convert datetime columns
+# ---------------------------
+df = df.withColumn("arrival_time", col("arrival_time").cast("timestamp")) \
+       .withColumn("treatment_start_time", col("treatment_start_time").cast("timestamp")) \
+       .withColumn("discharge_time", col("discharge_time").cast("timestamp"))
+
+# ---------------------------
+# 5. Create patient status
+# ---------------------------
+df = df.withColumn(
+    "patient_status",
+    when(col("treatment_start_time").isNull(), "waiting")
+    .when(col("discharge_time").isNull(), "under_treatment")
+    .otherwise("treated")
+)
+
+# ---------------------------
+# 6. Waiting time calculation
+#    Only for patients whose treatment started
+# ---------------------------
+df = df.withColumn(
+    "waiting_time_minutes",
+    when(
+        col("treatment_start_time").isNotNull(),
+        (unix_timestamp("treatment_start_time") - unix_timestamp("arrival_time")) / 60
+    )
+)
+
+# ---------------------------
+# 7. Output 1: ER patient count
+# ---------------------------
+er_patient_count_df = df.select(count("*").alias("er_patient_count"))
+
+# ---------------------------
+# 8. Output 2: Average waiting time
+# ---------------------------
+avg_waiting_time_df = df.select(
+    avg("waiting_time_minutes").alias("average_waiting_time_minutes")
+)
+
+# ---------------------------
+# 9. Output 3: Severity-wise case summary
+# ---------------------------
+severity_summary_df = df.groupBy("triage_level").agg(
+    count("*").alias("case_count")
+)
+
+# ---------------------------
+# 10. Output 4: Treated vs waiting report
+# ---------------------------
+treated_waiting_df = df.groupBy("patient_status").agg(
+    count("*").alias("patient_count")
+)
+
+# ---------------------------
+# 11. Write detailed processed data
+# ---------------------------
+df.write.mode("overwrite").parquet("s3://er-monitoring-bucket/er_processed/detailed/")
+
+# ---------------------------
+# 12. Write KPI outputs s3://er-monitoring-bucket/er_processed/
+# ---------------------------
+er_patient_count_df.write.mode("overwrite").parquet("s3://er-monitoring-bucket/er_processed/kpi_er_patient_count/")
+avg_waiting_time_df.write.mode("overwrite").parquet("s3://er-monitoring-bucket/er_processed/kpi_avg_waiting_time/")
+severity_summary_df.write.mode("overwrite").parquet("s3://er-monitoring-bucket/er_processed/kpi_severity_summary/")
+treated_waiting_df.write.mode("overwrite").parquet("s3://er-monitoring-bucket/er_processed/kpi_treated_vs_waiting/")
+
+
+
+job.commit()
