@@ -1,0 +1,1051 @@
+patient_id,arrival_time,triage_level,doctor_assigned,treatment_start_time,discharge_time,patient_status
+P0001,06/01/25 9:58,High,Dr. Davis,,,waiting
+P0002,25/01/25 5:27,Medium,Dr. Miller,25/01/25 5:48,,under_treatment
+P0003,04/01/25 21:54,High,Dr. Smith,,,waiting
+P0004,24/01/25 2:53,High,Dr. Garcia,,,waiting
+P0005,10/01/25 22:38,Medium,Dr. Garcia,11/01/25 0:16,11/01/25 1:18,treated
+P0006,01/01/25 4:51,High,Dr. Miller,,,waiting
+P0007,05/01/25 17:32,Critical,Dr. Williams,05/01/25 17:37,05/01/25 18:39,treated
+P0008,29/01/25 19:04,Medium,Dr. Miller,29/01/25 20:27,30/01/25 1:16,treated
+P0009,29/01/25 15:17,Critical,Dr. Jones,,,waiting
+P0010,09/01/25 17:22,Critical,Dr. Williams,,,waiting
+P0011,16/01/25 2:43,High,Dr. Garcia,,,waiting
+P0012,23/01/25 1:24,Low,Dr. Davis,23/01/25 2:00,23/01/25 7:28,treated
+P0013,09/01/25 1:11,Critical,Dr. Brown,09/01/25 1:19,,under_treatment
+P0014,26/01/25 16:41,Critical,Dr. Jones,,,waiting
+P0015,04/01/25 14:11,Medium,Dr. Garcia,04/01/25 15:15,04/01/25 20:43,treated
+P0016,17/01/25 6:50,High,Dr. Davis,17/01/25 8:50,17/01/25 14:20,treated
+P0017,27/01/25 6:11,Low,Dr. Brown,27/01/25 8:07,,under_treatment
+P0018,19/01/25 13:45,Critical,Dr. Brown,19/01/25 15:24,19/01/25 18:24,treated
+P0019,12/01/25 20:19,Critical,Dr. Smith,12/01/25 21:01,13/01/25 1:45,treated
+P0020,16/01/25 15:37,Low,Dr. Smith,,,waiting
+P0021,28/01/25 16:14,Critical,Dr. Johnson,,,waiting
+P0022,27/01/25 19:09,High,Dr. Garcia,27/01/25 19:58,,under_treatment
+P0023,14/01/25 5:58,Medium,Dr. Williams,14/01/25 6:21,14/01/25 9:55,treated
+P0024,10/01/25 15:00,Critical,Dr. Smith,10/01/25 15:17,10/01/25 22:49,treated
+P0025,02/01/25 11:24,Critical,Dr. Davis,02/01/25 12:11,,under_treatment
+P0026,09/01/25 21:59,High,Dr. Davis,09/01/25 23:05,,under_treatment
+P0027,08/01/25 12:14,Critical,Dr. Garcia,08/01/25 13:59,08/01/25 18:30,treated
+P0028,12/01/25 11:50,Medium,Dr. Miller,12/01/25 12:14,12/01/25 18:05,treated
+P0029,23/01/25 20:46,Critical,Dr. Smith,,,waiting
+P0030,01/01/25 15:33,Medium,Dr. Jones,,,waiting
+P0031,24/01/25 3:48,High,Dr. Miller,24/01/25 4:07,24/01/25 10:12,treated
+P0032,10/01/25 1:37,High,Dr. Jones,10/01/25 3:28,,under_treatment
+P0033,09/01/25 17:44,Medium,Dr. Smith,09/01/25 19:37,,under_treatment
+P0034,18/01/25 16:55,High,Dr. Johnson,,,waiting
+P0035,02/01/25 2:48,High,Dr. Smith,02/01/25 4:24,02/01/25 10:31,treated
+P0036,08/01/25 13:57,Critical,Dr. Williams,,,waiting
+P0037,29/01/25 4:04,Critical,Dr. Williams,,,waiting
+P0038,27/01/25 2:32,Critical,Dr. Davis,27/01/25 3:25,27/01/25 11:04,treated
+P0039,29/01/25 0:59,Critical,Dr. Johnson,,,waiting
+P0040,17/01/25 16:01,Medium,Dr. Brown,17/01/25 16:27,,under_treatment
+P0041,02/01/25 4:51,Low,Dr. Garcia,,,waiting
+P0042,16/01/25 3:12,Critical,Dr. Davis,16/01/25 4:26,,under_treatment
+P0043,22/01/25 16:21,Low,Dr. Jones,,,waiting
+P0044,24/01/25 8:27,Critical,Dr. Brown,24/01/25 10:26,,under_treatment
+P0045,14/01/25 4:45,Critical,Dr. Brown,14/01/25 5:44,14/01/25 6:27,treated
+P0046,16/01/25 2:11,Low,Dr. Miller,16/01/25 3:44,,under_treatment
+P0047,09/01/25 13:31,Low,Dr. Garcia,09/01/25 15:06,,under_treatment
+P0048,28/01/25 19:00,Medium,Dr. Garcia,,,waiting
+P0049,24/01/25 20:22,Medium,Dr. Davis,,,waiting
+P0050,04/01/25 8:26,Medium,Dr. Jones,04/01/25 9:54,04/01/25 16:24,treated
+P0051,05/01/25 7:03,Medium,Dr. Garcia,,,waiting
+P0052,15/01/25 10:48,High,Dr. Davis,15/01/25 12:12,,under_treatment
+P0053,26/01/25 20:43,Low,Dr. Jones,26/01/25 22:26,,under_treatment
+P0054,10/01/25 3:16,Low,Dr. Davis,10/01/25 3:47,10/01/25 6:00,treated
+P0055,21/01/25 14:00,Low,Dr. Garcia,,,waiting
+P0056,19/01/25 4:37,High,Dr. Jones,19/01/25 6:24,,under_treatment
+P0057,11/01/25 22:58,Critical,Dr. Williams,12/01/25 0:28,,under_treatment
+P0058,03/01/25 17:27,Critical,Dr. Garcia,03/01/25 18:38,03/01/25 23:30,treated
+P0059,05/01/25 4:19,Medium,Dr. Jones,05/01/25 5:33,05/01/25 6:21,treated
+P0060,23/01/25 22:33,Critical,Dr. Garcia,24/01/25 0:30,24/01/25 8:20,treated
+P0061,24/01/25 8:31,High,Dr. Smith,24/01/25 10:12,,under_treatment
+P0062,11/01/25 5:01,High,Dr. Jones,11/01/25 5:26,11/01/25 8:37,treated
+P0063,29/01/25 18:29,Medium,Dr. Johnson,,,waiting
+P0064,18/01/25 0:19,Medium,Dr. Johnson,18/01/25 1:00,,under_treatment
+P0065,08/01/25 3:30,Critical,Dr. Garcia,08/01/25 4:27,08/01/25 9:39,treated
+P0066,29/01/25 7:10,Medium,Dr. Smith,29/01/25 8:24,,under_treatment
+P0067,01/01/25 6:00,High,Dr. Miller,,,waiting
+P0068,20/01/25 3:42,Critical,Dr. Brown,,,waiting
+P0069,09/01/25 6:06,Critical,Dr. Miller,09/01/25 7:51,09/01/25 13:12,treated
+P0070,01/01/25 13:48,Low,Dr. Johnson,,,waiting
+P0071,16/01/25 1:26,Critical,Dr. Davis,16/01/25 2:41,16/01/25 4:03,treated
+P0072,03/01/25 7:59,Low,Dr. Brown,,,waiting
+P0073,12/01/25 8:41,Medium,Dr. Smith,,,waiting
+P0074,03/01/25 8:12,Medium,Dr. Miller,03/01/25 9:15,03/01/25 13:39,treated
+P0075,03/01/25 21:55,Critical,Dr. Miller,,,waiting
+P0076,10/01/25 14:20,Low,Dr. Jones,10/01/25 15:21,,under_treatment
+P0077,29/01/25 6:47,High,Dr. Johnson,29/01/25 7:28,,under_treatment
+P0078,17/01/25 20:16,Medium,Dr. Smith,17/01/25 20:51,,under_treatment
+P0079,30/01/25 14:08,Critical,Dr. Davis,30/01/25 14:25,,under_treatment
+P0080,06/01/25 20:45,Medium,Dr. Davis,06/01/25 21:33,,under_treatment
+P0081,28/01/25 12:04,Medium,Dr. Williams,28/01/25 12:51,28/01/25 16:07,treated
+P0082,20/01/25 14:26,Medium,Dr. Garcia,20/01/25 15:11,20/01/25 17:25,treated
+P0083,22/01/25 7:15,Critical,Dr. Davis,22/01/25 7:39,,under_treatment
+P0084,22/01/25 8:26,Medium,Dr. Smith,22/01/25 10:16,,under_treatment
+P0085,27/01/25 6:41,Medium,Dr. Miller,,,waiting
+P0086,10/01/25 20:38,Medium,Dr. Jones,10/01/25 21:18,,under_treatment
+P0087,12/01/25 6:25,Critical,Dr. Brown,12/01/25 8:10,,under_treatment
+P0088,30/01/25 3:15,Low,Dr. Johnson,30/01/25 4:49,,under_treatment
+P0089,09/01/25 16:35,Medium,Dr. Jones,09/01/25 17:59,09/01/25 22:26,treated
+P0090,26/01/25 20:23,Low,Dr. Davis,,,waiting
+P0091,01/01/25 20:30,Medium,Dr. Brown,,,waiting
+P0092,03/01/25 9:11,High,Dr. Smith,03/01/25 9:52,03/01/25 13:19,treated
+P0093,27/01/25 7:49,Critical,Dr. Davis,27/01/25 8:46,27/01/25 12:09,treated
+P0094,30/01/25 16:36,Medium,Dr. Jones,30/01/25 18:09,30/01/25 21:57,treated
+P0095,23/01/25 3:58,Low,Dr. Jones,23/01/25 4:37,23/01/25 7:43,treated
+P0096,20/01/25 6:50,Medium,Dr. Garcia,,,waiting
+P0097,17/01/25 4:08,Low,Dr. Brown,17/01/25 6:00,17/01/25 12:03,treated
+P0098,21/01/25 6:05,Low,Dr. Garcia,21/01/25 6:54,,under_treatment
+P0099,24/01/25 4:02,Medium,Dr. Garcia,24/01/25 5:52,24/01/25 9:12,treated
+P0100,21/01/25 23:32,Medium,Dr. Brown,22/01/25 1:03,22/01/25 6:33,treated
+P0101,24/01/25 5:43,Critical,Dr. Johnson,24/01/25 7:39,,under_treatment
+P0102,12/01/25 22:28,Low,Dr. Johnson,,,waiting
+P0103,20/01/25 6:19,Medium,Dr. Davis,,,waiting
+P0104,01/01/25 2:08,Medium,Dr. Garcia,01/01/25 3:42,01/01/25 6:01,treated
+P0105,21/01/25 13:44,Medium,Dr. Williams,21/01/25 13:59,21/01/25 16:13,treated
+P0106,18/01/25 8:48,Low,Dr. Davis,,,waiting
+P0107,05/01/25 16:11,Medium,Dr. Brown,,,waiting
+P0108,20/01/25 19:19,Medium,Dr. Garcia,20/01/25 19:43,,under_treatment
+P0109,29/01/25 6:35,Critical,Dr. Davis,29/01/25 8:02,29/01/25 12:52,treated
+P0110,02/01/25 18:30,High,Dr. Miller,02/01/25 19:10,02/01/25 22:31,treated
+P0111,06/01/25 22:03,Low,Dr. Jones,,,waiting
+P0112,21/01/25 21:10,High,Dr. Davis,21/01/25 22:45,,under_treatment
+P0113,29/01/25 15:25,Critical,Dr. Jones,29/01/25 16:54,,under_treatment
+P0114,11/01/25 3:33,Medium,Dr. Williams,11/01/25 5:24,,under_treatment
+P0115,14/01/25 9:14,Low,Dr. Davis,14/01/25 10:39,14/01/25 16:53,treated
+P0116,06/01/25 13:12,Low,Dr. Jones,06/01/25 14:41,,under_treatment
+P0117,10/01/25 15:59,Low,Dr. Davis,10/01/25 16:43,10/01/25 20:02,treated
+P0118,01/01/25 4:36,Medium,Dr. Williams,,,waiting
+P0119,01/01/25 10:12,Medium,Dr. Brown,,,waiting
+P0120,06/01/25 12:46,Medium,Dr. Brown,06/01/25 12:55,06/01/25 20:27,treated
+P0121,20/01/25 8:06,Low,Dr. Brown,20/01/25 8:47,20/01/25 9:20,treated
+P0122,07/01/25 14:00,Low,Dr. Brown,07/01/25 15:46,,under_treatment
+P0123,03/01/25 0:48,Low,Dr. Smith,03/01/25 1:18,,under_treatment
+P0124,27/01/25 6:33,Medium,Dr. Miller,27/01/25 8:22,27/01/25 12:53,treated
+P0125,12/01/25 2:42,High,Dr. Garcia,12/01/25 3:00,,under_treatment
+P0126,17/01/25 15:55,Critical,Dr. Davis,17/01/25 16:04,17/01/25 19:54,treated
+P0127,11/01/25 22:11,Low,Dr. Miller,,,waiting
+P0128,30/01/25 21:29,Medium,Dr. Miller,30/01/25 21:51,,under_treatment
+P0129,22/01/25 21:24,Low,Dr. Jones,,,waiting
+P0130,12/01/25 2:26,Critical,Dr. Smith,,,waiting
+P0131,16/01/25 7:10,Critical,Dr. Brown,,,waiting
+P0132,30/01/25 15:23,Critical,Dr. Jones,30/01/25 16:44,31/01/25 0:19,treated
+P0133,15/01/25 18:00,High,Dr. Miller,15/01/25 18:06,16/01/25 1:20,treated
+P0134,29/01/25 8:24,Critical,Dr. Brown,29/01/25 8:33,29/01/25 16:10,treated
+P0135,16/01/25 9:58,High,Dr. Brown,,,waiting
+P0136,08/01/25 13:23,Critical,Dr. Williams,08/01/25 13:39,,under_treatment
+P0137,23/01/25 6:19,Critical,Dr. Johnson,,,waiting
+P0138,30/01/25 9:55,Critical,Dr. Williams,30/01/25 11:06,,under_treatment
+P0139,08/01/25 1:43,Critical,Dr. Jones,,,waiting
+P0140,27/01/25 16:02,High,Dr. Brown,27/01/25 16:41,,under_treatment
+P0141,05/01/25 23:31,Low,Dr. Miller,,,waiting
+P0142,24/01/25 19:45,Medium,Dr. Jones,24/01/25 20:40,,under_treatment
+P0143,06/01/25 16:33,High,Dr. Davis,,,waiting
+P0144,28/01/25 22:33,High,Dr. Garcia,,,waiting
+P0145,01/01/25 21:11,High,Dr. Davis,01/01/25 22:21,02/01/25 5:35,treated
+P0146,14/01/25 0:16,Critical,Dr. Garcia,14/01/25 0:45,,under_treatment
+P0147,02/01/25 7:26,High,Dr. Davis,02/01/25 7:56,,under_treatment
+P0148,17/01/25 21:10,Critical,Dr. Johnson,,,waiting
+P0149,28/01/25 13:30,Critical,Dr. Garcia,28/01/25 13:57,28/01/25 18:08,treated
+P0150,08/01/25 23:16,Medium,Dr. Johnson,08/01/25 23:29,,under_treatment
+P0151,03/01/25 16:10,High,Dr. Williams,03/01/25 16:18,,under_treatment
+P0152,04/01/25 13:01,Medium,Dr. Johnson,,,waiting
+P0153,10/01/25 8:42,Critical,Dr. Smith,10/01/25 9:58,10/01/25 15:59,treated
+P0154,28/01/25 3:15,Medium,Dr. Jones,28/01/25 3:58,28/01/25 10:27,treated
+P0155,16/01/25 0:00,Low,Dr. Jones,16/01/25 1:18,16/01/25 2:17,treated
+P0156,20/01/25 2:06,High,Dr. Miller,20/01/25 2:28,20/01/25 9:18,treated
+P0157,08/01/25 13:05,Low,Dr. Jones,08/01/25 14:56,08/01/25 19:43,treated
+P0158,01/01/25 9:15,Low,Dr. Garcia,01/01/25 10:56,01/01/25 12:34,treated
+P0159,01/01/25 6:39,Medium,Dr. Johnson,,,waiting
+P0160,18/01/25 3:11,Critical,Dr. Brown,,,waiting
+P0161,18/01/25 3:06,Low,Dr. Miller,18/01/25 3:58,18/01/25 9:38,treated
+P0162,12/01/25 6:03,Low,Dr. Garcia,12/01/25 6:57,12/01/25 8:55,treated
+P0163,13/01/25 11:17,Low,Dr. Brown,13/01/25 11:49,,under_treatment
+P0164,06/01/25 22:46,High,Dr. Jones,,,waiting
+P0165,14/01/25 0:12,Critical,Dr. Garcia,14/01/25 1:34,,under_treatment
+P0166,05/01/25 4:00,High,Dr. Williams,05/01/25 5:29,,under_treatment
+P0167,03/01/25 15:33,High,Dr. Johnson,03/01/25 16:50,,under_treatment
+P0168,09/01/25 17:21,Medium,Dr. Garcia,09/01/25 17:35,09/01/25 20:11,treated
+P0169,05/01/25 19:05,High,Dr. Garcia,05/01/25 19:31,06/01/25 2:48,treated
+P0170,18/01/25 4:56,High,Dr. Davis,18/01/25 6:30,18/01/25 12:44,treated
+P0171,30/01/25 20:41,Medium,Dr. Jones,,,waiting
+P0172,26/01/25 10:18,Medium,Dr. Johnson,26/01/25 11:50,26/01/25 12:41,treated
+P0173,14/01/25 0:49,Medium,Dr. Johnson,,,waiting
+P0174,14/01/25 1:47,Low,Dr. Johnson,14/01/25 1:52,14/01/25 5:41,treated
+P0175,01/01/25 13:49,Medium,Dr. Jones,01/01/25 14:16,01/01/25 15:55,treated
+P0176,20/01/25 19:47,Medium,Dr. Williams,,,waiting
+P0177,10/01/25 0:25,Low,Dr. Brown,10/01/25 0:36,10/01/25 5:24,treated
+P0178,30/01/25 3:17,Low,Dr. Garcia,30/01/25 4:06,,under_treatment
+P0179,17/01/25 16:45,Critical,Dr. Smith,17/01/25 17:15,,under_treatment
+P0180,13/01/25 10:56,High,Dr. Smith,13/01/25 12:25,13/01/25 18:55,treated
+P0181,05/01/25 16:06,High,Dr. Garcia,,,waiting
+P0182,18/01/25 13:14,Critical,Dr. Davis,18/01/25 13:57,18/01/25 17:12,treated
+P0183,25/01/25 21:38,Medium,Dr. Brown,25/01/25 22:41,,under_treatment
+P0184,15/01/25 5:47,High,Dr. Johnson,,,waiting
+P0185,10/01/25 18:10,Medium,Dr. Smith,,,waiting
+P0186,30/01/25 4:13,Low,Dr. Garcia,30/01/25 5:06,30/01/25 11:43,treated
+P0187,19/01/25 8:36,Critical,Dr. Miller,19/01/25 9:35,,under_treatment
+P0188,22/01/25 7:01,Medium,Dr. Davis,22/01/25 8:40,,under_treatment
+P0189,17/01/25 2:02,Medium,Dr. Brown,17/01/25 2:51,17/01/25 5:43,treated
+P0190,21/01/25 11:34,Medium,Dr. Johnson,21/01/25 12:24,21/01/25 18:31,treated
+P0191,23/01/25 7:25,High,Dr. Davis,,,waiting
+P0192,07/01/25 2:57,Critical,Dr. Garcia,07/01/25 3:34,,under_treatment
+P0193,18/01/25 7:42,High,Dr. Brown,18/01/25 8:50,,under_treatment
+P0194,05/01/25 10:22,Medium,Dr. Smith,05/01/25 11:27,,under_treatment
+P0195,05/01/25 1:58,Critical,Dr. Williams,05/01/25 2:32,,under_treatment
+P0196,04/01/25 3:21,High,Dr. Garcia,04/01/25 3:55,,under_treatment
+P0197,02/01/25 4:59,High,Dr. Miller,,,waiting
+P0198,22/01/25 5:00,Critical,Dr. Miller,22/01/25 5:42,22/01/25 10:05,treated
+P0199,06/01/25 3:06,Medium,Dr. Jones,,,waiting
+P0200,23/01/25 10:02,Medium,Dr. Jones,23/01/25 10:51,23/01/25 15:23,treated
+P0201,29/01/25 10:08,Critical,Dr. Miller,29/01/25 11:13,,under_treatment
+P0202,21/01/25 12:57,Critical,Dr. Miller,21/01/25 14:50,21/01/25 17:03,treated
+P0203,17/01/25 16:11,High,Dr. Garcia,17/01/25 17:20,17/01/25 18:58,treated
+P0204,21/01/25 0:37,High,Dr. Miller,21/01/25 1:19,,under_treatment
+P0205,18/01/25 13:51,High,Dr. Williams,,,waiting
+P0206,26/01/25 5:12,Medium,Dr. Davis,,,waiting
+P0207,23/01/25 16:18,Medium,Dr. Garcia,23/01/25 17:43,,under_treatment
+P0208,30/01/25 6:56,Critical,Dr. Davis,30/01/25 7:03,,under_treatment
+P0209,05/01/25 14:45,Medium,Dr. Brown,05/01/25 16:30,05/01/25 21:14,treated
+P0210,12/01/25 5:46,Low,Dr. Smith,12/01/25 7:05,12/01/25 11:48,treated
+P0211,05/01/25 17:47,Critical,Dr. Smith,05/01/25 19:32,,under_treatment
+P0212,22/01/25 16:46,Critical,Dr. Jones,,,waiting
+P0213,07/01/25 16:08,Low,Dr. Davis,07/01/25 17:59,,under_treatment
+P0214,15/01/25 11:45,Low,Dr. Johnson,15/01/25 13:03,,under_treatment
+P0215,03/01/25 2:42,High,Dr. Miller,03/01/25 3:27,,under_treatment
+P0216,21/01/25 14:56,High,Dr. Smith,,,waiting
+P0217,12/01/25 4:51,High,Dr. Miller,12/01/25 6:17,,under_treatment
+P0218,03/01/25 6:08,Low,Dr. Garcia,,,waiting
+P0219,15/01/25 23:03,Medium,Dr. Davis,16/01/25 0:48,16/01/25 7:30,treated
+P0220,16/01/25 10:02,Medium,Dr. Garcia,16/01/25 11:38,,under_treatment
+P0221,09/01/25 6:27,High,Dr. Johnson,09/01/25 7:35,09/01/25 11:26,treated
+P0222,22/01/25 14:45,Critical,Dr. Jones,,,waiting
+P0223,28/01/25 1:13,Low,Dr. Jones,28/01/25 1:19,,under_treatment
+P0224,20/01/25 1:24,Low,Dr. Jones,20/01/25 2:20,20/01/25 5:57,treated
+P0225,15/01/25 9:16,Critical,Dr. Smith,15/01/25 10:05,15/01/25 12:01,treated
+P0226,16/01/25 9:41,Low,Dr. Miller,16/01/25 10:13,16/01/25 12:34,treated
+P0227,30/01/25 18:22,Critical,Dr. Brown,,,waiting
+P0228,10/01/25 6:18,Medium,Dr. Smith,10/01/25 6:47,,under_treatment
+P0229,07/01/25 23:27,Critical,Dr. Brown,08/01/25 1:05,,under_treatment
+P0230,13/01/25 17:35,Medium,Dr. Jones,,,waiting
+P0231,29/01/25 20:24,Medium,Dr. Johnson,29/01/25 21:26,29/01/25 22:44,treated
+P0232,04/01/25 2:12,Critical,Dr. Davis,04/01/25 2:21,04/01/25 5:03,treated
+P0233,12/01/25 2:33,High,Dr. Miller,12/01/25 4:32,,under_treatment
+P0234,04/01/25 8:56,Critical,Dr. Davis,04/01/25 9:40,04/01/25 15:54,treated
+P0235,28/01/25 13:21,Medium,Dr. Johnson,28/01/25 14:38,28/01/25 18:35,treated
+P0236,06/01/25 1:27,Critical,Dr. Johnson,06/01/25 2:31,,under_treatment
+P0237,21/01/25 2:02,Medium,Dr. Brown,21/01/25 2:18,,under_treatment
+P0238,08/01/25 3:10,Medium,Dr. Garcia,08/01/25 3:17,,under_treatment
+P0239,21/01/25 18:37,Critical,Dr. Jones,21/01/25 20:36,,under_treatment
+P0240,30/01/25 15:29,Low,Dr. Brown,,,waiting
+P0241,13/01/25 7:26,High,Dr. Miller,13/01/25 8:36,13/01/25 12:29,treated
+P0242,26/01/25 23:26,High,Dr. Johnson,,,waiting
+P0243,20/01/25 9:53,Critical,Dr. Smith,,,waiting
+P0244,18/01/25 21:16,Medium,Dr. Williams,18/01/25 22:45,,under_treatment
+P0245,10/01/25 16:09,High,Dr. Williams,10/01/25 17:08,10/01/25 18:50,treated
+P0246,22/01/25 16:35,Medium,Dr. Brown,22/01/25 17:13,22/01/25 20:43,treated
+P0247,20/01/25 12:36,Critical,Dr. Davis,20/01/25 14:07,20/01/25 17:38,treated
+P0248,07/01/25 19:40,Medium,Dr. Davis,,,waiting
+P0249,03/01/25 16:49,High,Dr. Miller,03/01/25 18:15,04/01/25 1:39,treated
+P0250,05/01/25 5:26,Low,Dr. Miller,05/01/25 6:35,05/01/25 7:45,treated
+P0251,07/01/25 8:51,High,Dr. Davis,07/01/25 9:24,,under_treatment
+P0252,04/01/25 23:36,Low,Dr. Brown,,,waiting
+P0253,28/01/25 3:42,High,Dr. Jones,28/01/25 4:41,,under_treatment
+P0254,08/01/25 2:42,Low,Dr. Davis,,,waiting
+P0255,24/01/25 15:02,Critical,Dr. Davis,24/01/25 15:21,,under_treatment
+P0256,08/01/25 12:03,Medium,Dr. Miller,08/01/25 12:34,08/01/25 17:19,treated
+P0257,11/01/25 5:40,Low,Dr. Jones,11/01/25 6:58,11/01/25 12:13,treated
+P0258,14/01/25 17:05,Critical,Dr. Smith,14/01/25 18:03,14/01/25 21:28,treated
+P0259,23/01/25 5:38,High,Dr. Miller,23/01/25 6:44,23/01/25 13:56,treated
+P0260,08/01/25 22:42,Low,Dr. Jones,,,waiting
+P0261,18/01/25 3:15,Low,Dr. Garcia,,,waiting
+P0262,21/01/25 7:48,Medium,Dr. Johnson,21/01/25 8:28,21/01/25 9:07,treated
+P0263,14/01/25 4:18,High,Dr. Williams,,,waiting
+P0264,22/01/25 9:31,Medium,Dr. Williams,,,waiting
+P0265,18/01/25 8:14,Critical,Dr. Brown,,,waiting
+P0266,01/01/25 15:55,High,Dr. Miller,,,waiting
+P0267,12/01/25 2:43,Critical,Dr. Williams,12/01/25 3:31,12/01/25 9:19,treated
+P0268,22/01/25 19:03,Medium,Dr. Miller,22/01/25 20:38,23/01/25 0:35,treated
+P0269,03/01/25 3:45,Medium,Dr. Williams,03/01/25 5:28,,under_treatment
+P0270,17/01/25 2:44,Critical,Dr. Miller,,,waiting
+P0271,11/01/25 22:55,High,Dr. Miller,,,waiting
+P0272,25/01/25 6:20,Critical,Dr. Davis,,,waiting
+P0273,01/01/25 9:30,Medium,Dr. Garcia,,,waiting
+P0274,05/01/25 1:09,Low,Dr. Miller,05/01/25 2:35,,under_treatment
+P0275,20/01/25 4:21,Low,Dr. Davis,20/01/25 5:43,,under_treatment
+P0276,26/01/25 21:45,Low,Dr. Williams,26/01/25 22:09,,under_treatment
+P0277,11/01/25 1:23,High,Dr. Miller,,,waiting
+P0278,04/01/25 2:36,Low,Dr. Garcia,04/01/25 4:12,04/01/25 5:13,treated
+P0279,19/01/25 16:49,Low,Dr. Miller,19/01/25 17:44,,under_treatment
+P0280,15/01/25 14:38,High,Dr. Williams,,,waiting
+P0281,21/01/25 17:07,High,Dr. Johnson,21/01/25 17:13,22/01/25 0:42,treated
+P0282,24/01/25 23:34,Low,Dr. Johnson,25/01/25 0:16,25/01/25 5:37,treated
+P0283,15/01/25 3:15,High,Dr. Brown,,,waiting
+P0284,01/01/25 6:39,Critical,Dr. Jones,01/01/25 7:11,,under_treatment
+P0285,10/01/25 19:54,Medium,Dr. Brown,10/01/25 20:17,,under_treatment
+P0286,14/01/25 13:09,Critical,Dr. Smith,14/01/25 14:40,,under_treatment
+P0287,11/01/25 18:16,Low,Dr. Williams,,,waiting
+P0288,17/01/25 5:36,High,Dr. Smith,17/01/25 7:04,17/01/25 12:07,treated
+P0289,21/01/25 23:07,High,Dr. Davis,,,waiting
+P0290,02/01/25 8:34,Critical,Dr. Brown,,,waiting
+P0291,18/01/25 18:58,Low,Dr. Brown,18/01/25 20:20,18/01/25 22:47,treated
+P0292,12/01/25 13:18,Critical,Dr. Davis,12/01/25 15:08,,under_treatment
+P0293,02/01/25 2:28,Medium,Dr. Smith,,,waiting
+P0294,22/01/25 13:22,Low,Dr. Miller,22/01/25 14:01,22/01/25 18:02,treated
+P0295,13/01/25 5:31,Low,Dr. Jones,13/01/25 6:51,13/01/25 8:36,treated
+P0296,16/01/25 5:42,Medium,Dr. Garcia,16/01/25 6:29,16/01/25 7:55,treated
+P0297,27/01/25 21:12,Low,Dr. Davis,,,waiting
+P0298,25/01/25 7:27,High,Dr. Davis,25/01/25 8:50,,under_treatment
+P0299,13/01/25 16:31,Medium,Dr. Williams,13/01/25 17:11,,under_treatment
+P0300,30/01/25 5:53,Critical,Dr. Johnson,30/01/25 7:14,30/01/25 9:38,treated
+P0301,23/01/25 21:12,Low,Dr. Jones,,,waiting
+P0302,30/01/25 2:07,Critical,Dr. Johnson,30/01/25 3:58,,under_treatment
+P0303,27/01/25 10:41,Low,Dr. Smith,27/01/25 10:54,27/01/25 13:17,treated
+P0304,28/01/25 17:16,Critical,Dr. Davis,,,waiting
+P0305,11/01/25 8:55,Critical,Dr. Brown,11/01/25 10:19,,under_treatment
+P0306,20/01/25 21:50,Low,Dr. Miller,20/01/25 22:15,21/01/25 0:45,treated
+P0307,25/01/25 22:34,Critical,Dr. Williams,,,waiting
+P0308,15/01/25 7:50,Low,Dr. Miller,15/01/25 8:05,15/01/25 14:20,treated
+P0309,04/01/25 8:18,High,Dr. Jones,04/01/25 8:41,04/01/25 11:44,treated
+P0310,22/01/25 15:55,Critical,Dr. Jones,,,waiting
+P0311,17/01/25 13:31,Low,Dr. Garcia,17/01/25 13:36,17/01/25 18:03,treated
+P0312,08/01/25 9:09,Low,Dr. Miller,08/01/25 9:55,,under_treatment
+P0313,08/01/25 10:53,High,Dr. Smith,,,waiting
+P0314,17/01/25 3:04,Critical,Dr. Jones,17/01/25 5:04,17/01/25 5:54,treated
+P0315,01/01/25 18:16,Low,Dr. Brown,01/01/25 19:45,,under_treatment
+P0316,03/01/25 20:10,High,Dr. Smith,03/01/25 21:38,,under_treatment
+P0317,30/01/25 13:33,Critical,Dr. Johnson,30/01/25 15:06,30/01/25 16:32,treated
+P0318,05/01/25 16:20,High,Dr. Miller,,,waiting
+P0319,28/01/25 18:49,Critical,Dr. Miller,28/01/25 20:26,,under_treatment
+P0320,14/01/25 2:53,Medium,Dr. Garcia,14/01/25 4:52,14/01/25 7:17,treated
+P0321,17/01/25 0:02,High,Dr. Williams,17/01/25 1:21,17/01/25 3:24,treated
+P0322,15/01/25 7:21,Critical,Dr. Garcia,15/01/25 9:15,15/01/25 10:47,treated
+P0323,26/01/25 12:15,High,Dr. Brown,,,waiting
+P0324,19/01/25 3:42,Medium,Dr. Johnson,,,waiting
+P0325,28/01/25 21:47,Critical,Dr. Smith,28/01/25 22:28,29/01/25 0:26,treated
+P0326,08/01/25 19:44,Critical,Dr. Smith,08/01/25 20:02,,under_treatment
+P0327,13/01/25 2:32,High,Dr. Jones,13/01/25 3:22,13/01/25 6:35,treated
+P0328,28/01/25 1:03,Critical,Dr. Smith,,,waiting
+P0329,24/01/25 9:52,Low,Dr. Brown,,,waiting
+P0330,03/01/25 22:34,Critical,Dr. Johnson,03/01/25 23:50,,under_treatment
+P0331,04/01/25 7:26,High,Dr. Davis,04/01/25 8:15,,under_treatment
+P0332,10/01/25 20:10,Low,Dr. Miller,,,waiting
+P0333,06/01/25 20:51,Critical,Dr. Davis,06/01/25 22:00,,under_treatment
+P0334,18/01/25 10:29,Critical,Dr. Smith,18/01/25 11:36,18/01/25 15:09,treated
+P0335,21/01/25 17:01,High,Dr. Johnson,,,waiting
+P0336,09/01/25 8:26,High,Dr. Jones,09/01/25 8:35,09/01/25 13:02,treated
+P0337,23/01/25 4:08,Low,Dr. Davis,23/01/25 5:02,,under_treatment
+P0338,02/01/25 2:26,Medium,Dr. Davis,,,waiting
+P0339,19/01/25 2:36,Critical,Dr. Garcia,19/01/25 4:28,19/01/25 11:51,treated
+P0340,07/01/25 14:36,Low,Dr. Williams,07/01/25 15:32,07/01/25 18:45,treated
+P0341,02/01/25 7:56,Low,Dr. Davis,02/01/25 9:37,,under_treatment
+P0342,03/01/25 7:47,Low,Dr. Smith,,,waiting
+P0343,22/01/25 22:46,High,Dr. Williams,23/01/25 0:40,23/01/25 4:00,treated
+P0344,17/01/25 18:24,Critical,Dr. Smith,17/01/25 18:43,17/01/25 20:42,treated
+P0345,03/01/25 6:28,High,Dr. Johnson,,,waiting
+P0346,09/01/25 18:26,Critical,Dr. Jones,,,waiting
+P0347,10/01/25 12:22,Critical,Dr. Johnson,10/01/25 13:13,,under_treatment
+P0348,17/01/25 8:44,Critical,Dr. Garcia,17/01/25 9:47,17/01/25 12:57,treated
+P0349,13/01/25 4:48,Medium,Dr. Williams,13/01/25 5:18,13/01/25 7:21,treated
+P0350,28/01/25 7:45,Low,Dr. Johnson,28/01/25 9:18,,under_treatment
+P0351,12/01/25 3:29,Low,Dr. Garcia,,,waiting
+P0352,20/01/25 3:38,Medium,Dr. Jones,,,waiting
+P0353,02/01/25 3:01,Medium,Dr. Garcia,02/01/25 4:23,,under_treatment
+P0354,21/01/25 12:20,Critical,Dr. Williams,21/01/25 13:01,21/01/25 19:50,treated
+P0355,07/01/25 6:56,Medium,Dr. Garcia,,,waiting
+P0356,02/01/25 13:03,Critical,Dr. Smith,,,waiting
+P0357,23/01/25 13:50,Medium,Dr. Garcia,23/01/25 14:57,,under_treatment
+P0358,02/01/25 3:03,Low,Dr. Johnson,02/01/25 3:22,,under_treatment
+P0359,24/01/25 5:43,Low,Dr. Jones,24/01/25 5:55,,under_treatment
+P0360,29/01/25 18:12,Medium,Dr. Garcia,29/01/25 19:54,30/01/25 1:25,treated
+P0361,28/01/25 18:36,Low,Dr. Garcia,,,waiting
+P0362,08/01/25 1:48,Medium,Dr. Brown,08/01/25 3:12,,under_treatment
+P0363,14/01/25 3:57,Low,Dr. Davis,14/01/25 5:45,,under_treatment
+P0364,15/01/25 17:23,Low,Dr. Miller,15/01/25 18:31,15/01/25 19:34,treated
+P0365,15/01/25 0:50,High,Dr. Jones,15/01/25 1:20,,under_treatment
+P0366,05/01/25 1:48,Critical,Dr. Davis,,,waiting
+P0367,12/01/25 8:39,Medium,Dr. Johnson,,,waiting
+P0368,10/01/25 23:41,High,Dr. Brown,,,waiting
+P0369,21/01/25 19:08,High,Dr. Davis,21/01/25 20:45,21/01/25 23:40,treated
+P0370,09/01/25 14:57,Medium,Dr. Jones,09/01/25 16:15,,under_treatment
+P0371,28/01/25 4:32,Medium,Dr. Johnson,,,waiting
+P0372,07/01/25 8:49,Critical,Dr. Williams,07/01/25 10:06,,under_treatment
+P0373,12/01/25 16:45,Low,Dr. Williams,12/01/25 18:08,,under_treatment
+P0374,30/01/25 0:27,Critical,Dr. Johnson,,,waiting
+P0375,26/01/25 23:52,High,Dr. Davis,27/01/25 0:06,,under_treatment
+P0376,02/01/25 14:51,Low,Dr. Williams,02/01/25 15:11,,under_treatment
+P0377,15/01/25 19:03,High,Dr. Garcia,,,waiting
+P0378,18/01/25 2:48,High,Dr. Davis,,,waiting
+P0379,29/01/25 19:22,High,Dr. Jones,,,waiting
+P0380,14/01/25 2:29,High,Dr. Miller,,,waiting
+P0381,29/01/25 17:34,Medium,Dr. Garcia,29/01/25 17:57,,under_treatment
+P0382,11/01/25 13:00,Critical,Dr. Smith,11/01/25 14:15,11/01/25 15:27,treated
+P0383,22/01/25 12:22,Medium,Dr. Jones,22/01/25 13:33,,under_treatment
+P0384,21/01/25 17:14,Low,Dr. Davis,,,waiting
+P0385,10/01/25 23:15,Low,Dr. Jones,11/01/25 0:18,11/01/25 2:48,treated
+P0386,04/01/25 23:11,High,Dr. Brown,,,waiting
+P0387,30/01/25 18:26,High,Dr. Garcia,30/01/25 19:36,30/01/25 22:39,treated
+P0388,08/01/25 10:37,Critical,Dr. Brown,08/01/25 12:16,,under_treatment
+P0389,19/01/25 12:14,Low,Dr. Jones,19/01/25 12:23,,under_treatment
+P0390,05/01/25 17:12,High,Dr. Williams,05/01/25 18:25,05/01/25 21:47,treated
+P0391,24/01/25 0:53,Critical,Dr. Jones,24/01/25 2:08,,under_treatment
+P0392,09/01/25 3:04,High,Dr. Garcia,09/01/25 4:43,09/01/25 10:00,treated
+P0393,03/01/25 23:04,Critical,Dr. Davis,,,waiting
+P0394,27/01/25 18:08,Low,Dr. Brown,27/01/25 18:36,,under_treatment
+P0395,25/01/25 11:00,High,Dr. Brown,25/01/25 11:58,25/01/25 12:45,treated
+P0396,26/01/25 8:32,Medium,Dr. Jones,26/01/25 9:01,26/01/25 12:48,treated
+P0397,22/01/25 17:01,High,Dr. Johnson,22/01/25 17:08,,under_treatment
+P0398,29/01/25 23:02,Low,Dr. Johnson,30/01/25 0:12,,under_treatment
+P0399,16/01/25 10:31,Critical,Dr. Garcia,16/01/25 12:27,16/01/25 17:19,treated
+P0400,19/01/25 0:42,Medium,Dr. Jones,19/01/25 1:12,,under_treatment
+P0401,21/01/25 1:42,High,Dr. Smith,21/01/25 2:04,,under_treatment
+P0402,23/01/25 18:45,High,Dr. Johnson,23/01/25 20:38,23/01/25 22:45,treated
+P0403,27/01/25 22:37,Low,Dr. Williams,27/01/25 23:37,28/01/25 4:23,treated
+P0404,27/01/25 12:08,Low,Dr. Miller,,,waiting
+P0405,22/01/25 8:51,Critical,Dr. Davis,22/01/25 10:18,,under_treatment
+P0406,10/01/25 8:59,Low,Dr. Jones,,,waiting
+P0407,02/01/25 10:09,Medium,Dr. Garcia,,,waiting
+P0408,29/01/25 6:17,Critical,Dr. Smith,,,waiting
+P0409,15/01/25 2:53,Low,Dr. Williams,15/01/25 4:19,,under_treatment
+P0410,01/01/25 2:32,Medium,Dr. Williams,,,waiting
+P0411,06/01/25 1:56,High,Dr. Jones,06/01/25 2:18,,under_treatment
+P0412,21/01/25 20:40,Low,Dr. Davis,21/01/25 21:35,22/01/25 2:36,treated
+P0413,09/01/25 17:55,Medium,Dr. Smith,09/01/25 18:24,09/01/25 19:48,treated
+P0414,16/01/25 2:34,Low,Dr. Brown,16/01/25 3:17,16/01/25 5:55,treated
+P0415,19/01/25 4:15,Medium,Dr. Davis,,,waiting
+P0416,18/01/25 16:27,Low,Dr. Garcia,18/01/25 17:17,18/01/25 19:09,treated
+P0417,02/01/25 15:40,Low,Dr. Smith,,,waiting
+P0418,29/01/25 16:23,High,Dr. Williams,29/01/25 17:08,30/01/25 0:02,treated
+P0419,09/01/25 13:03,Low,Dr. Davis,09/01/25 14:42,,under_treatment
+P0420,16/01/25 2:35,Critical,Dr. Smith,16/01/25 4:11,16/01/25 5:29,treated
+P0421,25/01/25 4:10,Medium,Dr. Brown,25/01/25 5:14,25/01/25 12:18,treated
+P0422,15/01/25 4:52,Critical,Dr. Williams,15/01/25 6:00,,under_treatment
+P0423,12/01/25 11:08,Low,Dr. Garcia,,,waiting
+P0424,09/01/25 15:41,Medium,Dr. Brown,09/01/25 17:23,09/01/25 18:29,treated
+P0425,07/01/25 3:52,Low,Dr. Smith,,,waiting
+P0426,30/01/25 8:10,Medium,Dr. Johnson,30/01/25 9:03,,under_treatment
+P0427,27/01/25 14:49,Low,Dr. Davis,27/01/25 15:17,,under_treatment
+P0428,07/01/25 10:51,Low,Dr. Jones,,,waiting
+P0429,02/01/25 14:38,High,Dr. Miller,02/01/25 15:11,02/01/25 18:09,treated
+P0430,09/01/25 13:54,Critical,Dr. Jones,09/01/25 14:25,,under_treatment
+P0431,15/01/25 13:30,Low,Dr. Davis,15/01/25 14:26,,under_treatment
+P0432,29/01/25 1:27,Medium,Dr. Williams,,,waiting
+P0433,02/01/25 0:41,High,Dr. Jones,02/01/25 1:45,,under_treatment
+P0434,01/01/25 0:08,Medium,Dr. Williams,,,waiting
+P0435,08/01/25 11:06,Critical,Dr. Garcia,,,waiting
+P0436,03/01/25 15:14,High,Dr. Miller,,,waiting
+P0437,14/01/25 3:25,Critical,Dr. Williams,14/01/25 3:31,14/01/25 6:31,treated
+P0438,10/01/25 3:01,Critical,Dr. Miller,10/01/25 3:18,10/01/25 4:26,treated
+P0439,24/01/25 23:49,High,Dr. Miller,25/01/25 1:34,,under_treatment
+P0440,15/01/25 16:24,Medium,Dr. Jones,,,waiting
+P0441,23/01/25 2:26,Medium,Dr. Smith,23/01/25 4:10,23/01/25 10:16,treated
+P0442,08/01/25 7:13,High,Dr. Johnson,08/01/25 7:58,,under_treatment
+P0443,01/01/25 6:20,High,Dr. Smith,,,waiting
+P0444,02/01/25 13:54,Medium,Dr. Johnson,02/01/25 14:40,02/01/25 21:34,treated
+P0445,28/01/25 19:14,Low,Dr. Jones,28/01/25 20:14,28/01/25 20:51,treated
+P0446,14/01/25 10:25,Critical,Dr. Smith,14/01/25 12:16,14/01/25 18:31,treated
+P0447,02/01/25 6:05,Medium,Dr. Williams,,,waiting
+P0448,13/01/25 1:39,Medium,Dr. Miller,13/01/25 2:05,13/01/25 4:13,treated
+P0449,11/01/25 21:11,Critical,Dr. Johnson,,,waiting
+P0450,26/01/25 7:21,Medium,Dr. Smith,,,waiting
+P0451,20/01/25 15:15,Critical,Dr. Johnson,,,waiting
+P0452,22/01/25 2:40,Critical,Dr. Garcia,22/01/25 3:36,,under_treatment
+P0453,25/01/25 1:19,Medium,Dr. Garcia,25/01/25 1:33,25/01/25 7:05,treated
+P0454,14/01/25 6:06,Critical,Dr. Miller,,,waiting
+P0455,19/01/25 2:05,High,Dr. Jones,19/01/25 3:51,19/01/25 6:56,treated
+P0456,06/01/25 7:44,Critical,Dr. Smith,,,waiting
+P0457,07/01/25 12:14,Medium,Dr. Williams,,,waiting
+P0458,05/01/25 23:42,Low,Dr. Johnson,06/01/25 0:12,,under_treatment
+P0459,15/01/25 10:17,Critical,Dr. Garcia,15/01/25 10:51,,under_treatment
+P0460,23/01/25 16:23,High,Dr. Jones,,,waiting
+P0461,28/01/25 19:24,Medium,Dr. Davis,28/01/25 20:57,29/01/25 3:09,treated
+P0462,12/01/25 6:54,Low,Dr. Brown,,,waiting
+P0463,11/01/25 6:24,Medium,Dr. Williams,11/01/25 6:30,,under_treatment
+P0464,07/01/25 4:08,Critical,Dr. Miller,07/01/25 5:52,,under_treatment
+P0465,20/01/25 13:46,High,Dr. Smith,20/01/25 15:43,20/01/25 22:53,treated
+P0466,12/01/25 4:04,Critical,Dr. Miller,,,waiting
+P0467,25/01/25 13:19,Medium,Dr. Brown,25/01/25 14:14,,under_treatment
+P0468,29/01/25 19:31,Medium,Dr. Smith,,,waiting
+P0469,14/01/25 14:03,High,Dr. Williams,,,waiting
+P0470,13/01/25 11:42,Critical,Dr. Miller,13/01/25 13:34,,under_treatment
+P0471,19/01/25 11:59,Critical,Dr. Brown,,,waiting
+P0472,27/01/25 15:51,Medium,Dr. Smith,27/01/25 17:50,27/01/25 19:59,treated
+P0473,23/01/25 1:59,Medium,Dr. Brown,,,waiting
+P0474,07/01/25 22:42,High,Dr. Jones,,,waiting
+P0475,18/01/25 7:31,Medium,Dr. Johnson,18/01/25 8:43,18/01/25 13:20,treated
+P0476,26/01/25 22:35,Critical,Dr. Brown,26/01/25 23:30,,under_treatment
+P0477,17/01/25 5:47,Critical,Dr. Garcia,17/01/25 7:47,17/01/25 9:57,treated
+P0478,12/01/25 4:53,Medium,Dr. Jones,12/01/25 5:59,12/01/25 7:41,treated
+P0479,05/01/25 23:18,Low,Dr. Davis,06/01/25 0:09,,under_treatment
+P0480,23/01/25 9:29,Critical,Dr. Garcia,23/01/25 11:00,,under_treatment
+P0481,27/01/25 12:21,Medium,Dr. Smith,27/01/25 12:57,,under_treatment
+P0482,12/01/25 12:18,Medium,Dr. Johnson,12/01/25 13:51,12/01/25 18:41,treated
+P0483,21/01/25 0:56,Medium,Dr. Williams,21/01/25 1:09,,under_treatment
+P0484,13/01/25 14:15,Low,Dr. Miller,,,waiting
+P0485,12/01/25 12:53,High,Dr. Davis,12/01/25 14:43,,under_treatment
+P0486,25/01/25 11:32,Low,Dr. Davis,25/01/25 12:48,25/01/25 18:56,treated
+P0487,30/01/25 22:20,Low,Dr. Johnson,30/01/25 22:55,,under_treatment
+P0488,07/01/25 21:28,High,Dr. Brown,07/01/25 21:34,08/01/25 1:56,treated
+P0489,27/01/25 15:18,Low,Dr. Miller,27/01/25 16:33,,under_treatment
+P0490,29/01/25 4:12,Low,Dr. Miller,29/01/25 5:28,,under_treatment
+P0491,09/01/25 8:42,Low,Dr. Johnson,,,waiting
+P0492,26/01/25 2:42,High,Dr. Davis,,,waiting
+P0493,04/01/25 12:30,Medium,Dr. Davis,,,waiting
+P0494,12/01/25 10:32,Medium,Dr. Williams,12/01/25 11:22,,under_treatment
+P0495,04/01/25 20:51,Critical,Dr. Miller,04/01/25 22:11,04/01/25 23:13,treated
+P0496,25/01/25 2:25,Medium,Dr. Smith,,,waiting
+P0497,29/01/25 14:51,High,Dr. Davis,,,waiting
+P0498,12/01/25 10:43,High,Dr. Miller,12/01/25 12:27,,under_treatment
+P0499,27/01/25 7:02,High,Dr. Miller,,,waiting
+P0500,13/01/25 1:47,Medium,Dr. Davis,,,waiting
+P0501,05/01/25 13:34,Low,Dr. Miller,05/01/25 14:38,05/01/25 20:10,treated
+P0502,20/01/25 3:17,Medium,Dr. Davis,20/01/25 3:47,20/01/25 5:55,treated
+P0503,01/01/25 17:26,Medium,Dr. Smith,01/01/25 19:05,,under_treatment
+P0504,25/01/25 5:49,High,Dr. Johnson,25/01/25 7:49,,under_treatment
+P0505,20/01/25 21:53,Low,Dr. Miller,20/01/25 22:49,21/01/25 5:07,treated
+P0506,14/01/25 9:39,High,Dr. Brown,14/01/25 11:31,14/01/25 14:17,treated
+P0507,13/01/25 8:29,High,Dr. Garcia,13/01/25 10:15,13/01/25 14:11,treated
+P0508,10/01/25 21:51,Critical,Dr. Garcia,10/01/25 23:03,,under_treatment
+P0509,11/01/25 3:00,Critical,Dr. Davis,11/01/25 4:02,11/01/25 5:13,treated
+P0510,28/01/25 23:42,Low,Dr. Brown,29/01/25 0:17,,under_treatment
+P0511,02/01/25 10:28,High,Dr. Smith,,,waiting
+P0512,22/01/25 11:39,Low,Dr. Johnson,22/01/25 12:23,,under_treatment
+P0513,21/01/25 2:53,Low,Dr. Miller,,,waiting
+P0514,27/01/25 10:52,Medium,Dr. Garcia,,,waiting
+P0515,20/01/25 12:04,Medium,Dr. Jones,,,waiting
+P0516,08/01/25 5:03,Low,Dr. Smith,,,waiting
+P0517,06/01/25 23:49,Critical,Dr. Jones,07/01/25 0:08,,under_treatment
+P0518,10/01/25 10:22,Critical,Dr. Jones,,,waiting
+P0519,11/01/25 23:16,Critical,Dr. Garcia,,,waiting
+P0520,17/01/25 4:36,Critical,Dr. Jones,17/01/25 4:55,17/01/25 6:43,treated
+P0521,20/01/25 7:57,High,Dr. Davis,20/01/25 9:01,,under_treatment
+P0522,18/01/25 23:20,Low,Dr. Smith,,,waiting
+P0523,21/01/25 22:25,High,Dr. Johnson,,,waiting
+P0524,07/01/25 21:17,Critical,Dr. Johnson,07/01/25 22:31,08/01/25 2:08,treated
+P0525,08/01/25 17:08,High,Dr. Davis,,,waiting
+P0526,07/01/25 10:20,Medium,Dr. Brown,,,waiting
+P0527,02/01/25 10:22,High,Dr. Williams,02/01/25 11:14,02/01/25 13:34,treated
+P0528,23/01/25 5:18,Medium,Dr. Johnson,,,waiting
+P0529,19/01/25 2:23,Low,Dr. Davis,19/01/25 3:08,,under_treatment
+P0530,24/01/25 6:44,High,Dr. Miller,24/01/25 7:53,,under_treatment
+P0531,08/01/25 20:55,Critical,Dr. Smith,08/01/25 21:31,,under_treatment
+P0532,06/01/25 14:51,Low,Dr. Miller,06/01/25 15:28,,under_treatment
+P0533,11/01/25 19:19,High,Dr. Davis,11/01/25 19:30,12/01/25 0:26,treated
+P0534,14/01/25 16:25,Low,Dr. Jones,,,waiting
+P0535,08/01/25 17:01,High,Dr. Smith,08/01/25 18:07,,under_treatment
+P0536,11/01/25 19:49,High,Dr. Miller,11/01/25 21:20,,under_treatment
+P0537,26/01/25 16:04,Medium,Dr. Jones,26/01/25 16:12,26/01/25 20:53,treated
+P0538,15/01/25 21:53,Critical,Dr. Johnson,,,waiting
+P0539,20/01/25 1:48,Medium,Dr. Brown,,,waiting
+P0540,01/01/25 15:37,Medium,Dr. Johnson,,,waiting
+P0541,01/01/25 3:18,High,Dr. Miller,01/01/25 4:19,,under_treatment
+P0542,03/01/25 4:07,Medium,Dr. Williams,,,waiting
+P0543,06/01/25 5:46,Low,Dr. Johnson,06/01/25 6:07,06/01/25 8:06,treated
+P0544,12/01/25 15:37,Low,Dr. Smith,12/01/25 17:27,,under_treatment
+P0545,10/01/25 8:12,High,Dr. Garcia,,,waiting
+P0546,16/01/25 23:14,Low,Dr. Johnson,16/01/25 23:38,,under_treatment
+P0547,09/01/25 16:37,Critical,Dr. Davis,09/01/25 17:11,09/01/25 17:50,treated
+P0548,15/01/25 16:29,Low,Dr. Garcia,15/01/25 16:58,,under_treatment
+P0549,05/01/25 2:58,High,Dr. Miller,05/01/25 3:46,05/01/25 4:17,treated
+P0550,14/01/25 3:40,High,Dr. Jones,14/01/25 4:37,14/01/25 5:24,treated
+P0551,22/01/25 10:38,Medium,Dr. Miller,22/01/25 11:06,22/01/25 16:16,treated
+P0552,27/01/25 5:17,Low,Dr. Smith,,,waiting
+P0553,13/01/25 3:11,Low,Dr. Garcia,13/01/25 4:22,,under_treatment
+P0554,30/01/25 6:46,Medium,Dr. Williams,30/01/25 7:09,30/01/25 11:53,treated
+P0555,08/01/25 2:29,Critical,Dr. Jones,08/01/25 3:30,,under_treatment
+P0556,06/01/25 0:42,Medium,Dr. Miller,06/01/25 2:36,06/01/25 6:24,treated
+P0557,14/01/25 4:02,High,Dr. Johnson,,,waiting
+P0558,09/01/25 16:13,High,Dr. Brown,09/01/25 17:02,09/01/25 18:03,treated
+P0559,21/01/25 23:15,Critical,Dr. Miller,21/01/25 23:55,,under_treatment
+P0560,12/01/25 10:49,Low,Dr. Davis,,,waiting
+P0561,29/01/25 21:58,Low,Dr. Garcia,,,waiting
+P0562,06/01/25 4:05,Low,Dr. Smith,06/01/25 5:14,,under_treatment
+P0563,03/01/25 8:38,Critical,Dr. Jones,03/01/25 8:53,03/01/25 12:56,treated
+P0564,10/01/25 0:11,Medium,Dr. Johnson,10/01/25 0:21,10/01/25 4:36,treated
+P0565,10/01/25 10:03,High,Dr. Garcia,10/01/25 11:08,,under_treatment
+P0566,13/01/25 16:32,Low,Dr. Garcia,13/01/25 18:20,,under_treatment
+P0567,01/01/25 16:01,Medium,Dr. Jones,01/01/25 17:46,01/01/25 19:51,treated
+P0568,15/01/25 8:36,High,Dr. Davis,15/01/25 9:46,15/01/25 15:45,treated
+P0569,15/01/25 16:27,Medium,Dr. Brown,15/01/25 18:21,,under_treatment
+P0570,10/01/25 15:43,Critical,Dr. Davis,10/01/25 16:39,10/01/25 21:18,treated
+P0571,07/01/25 4:47,Low,Dr. Smith,,,waiting
+P0572,15/01/25 18:29,Medium,Dr. Smith,,,waiting
+P0573,26/01/25 19:40,Medium,Dr. Davis,26/01/25 20:15,27/01/25 2:14,treated
+P0574,16/01/25 11:43,Medium,Dr. Brown,16/01/25 12:18,16/01/25 13:52,treated
+P0575,18/01/25 11:11,Critical,Dr. Brown,18/01/25 11:58,18/01/25 16:22,treated
+P0576,29/01/25 2:52,Medium,Dr. Jones,29/01/25 4:43,,under_treatment
+P0577,15/01/25 17:21,Medium,Dr. Miller,15/01/25 18:12,,under_treatment
+P0578,13/01/25 2:23,High,Dr. Jones,13/01/25 4:17,13/01/25 6:03,treated
+P0579,18/01/25 11:50,Medium,Dr. Brown,,,waiting
+P0580,05/01/25 8:31,Medium,Dr. Miller,05/01/25 9:34,05/01/25 13:30,treated
+P0581,02/01/25 9:59,High,Dr. Miller,02/01/25 10:45,,under_treatment
+P0582,24/01/25 5:20,High,Dr. Miller,24/01/25 7:03,,under_treatment
+P0583,03/01/25 19:44,Low,Dr. Brown,03/01/25 21:43,,under_treatment
+P0584,28/01/25 11:46,High,Dr. Davis,28/01/25 12:36,,under_treatment
+P0585,01/01/25 14:55,Critical,Dr. Williams,01/01/25 15:22,01/01/25 18:44,treated
+P0586,29/01/25 12:21,Medium,Dr. Miller,29/01/25 13:09,,under_treatment
+P0587,04/01/25 13:47,Critical,Dr. Smith,04/01/25 15:18,04/01/25 17:45,treated
+P0588,21/01/25 19:12,Critical,Dr. Garcia,,,waiting
+P0589,01/01/25 16:03,Low,Dr. Johnson,01/01/25 16:09,,under_treatment
+P0590,12/01/25 15:55,Low,Dr. Johnson,,,waiting
+P0591,24/01/25 19:46,High,Dr. Williams,,,waiting
+P0592,04/01/25 21:20,Critical,Dr. Johnson,,,waiting
+P0593,13/01/25 17:06,Low,Dr. Brown,,,waiting
+P0594,08/01/25 0:07,High,Dr. Smith,08/01/25 0:14,08/01/25 2:09,treated
+P0595,13/01/25 0:10,Low,Dr. Miller,13/01/25 1:13,,under_treatment
+P0596,19/01/25 14:42,Critical,Dr. Brown,19/01/25 15:21,19/01/25 19:12,treated
+P0597,12/01/25 18:05,Medium,Dr. Brown,12/01/25 18:13,,under_treatment
+P0598,03/01/25 19:56,High,Dr. Williams,,,waiting
+P0599,26/01/25 18:02,High,Dr. Smith,26/01/25 19:45,,under_treatment
+P0600,16/01/25 6:42,Medium,Dr. Williams,16/01/25 8:10,,under_treatment
+P0601,20/01/25 4:26,Critical,Dr. Miller,,,waiting
+P0602,27/01/25 7:31,Low,Dr. Miller,,,waiting
+P0603,29/01/25 3:25,Medium,Dr. Garcia,29/01/25 4:40,29/01/25 7:54,treated
+P0604,25/01/25 1:46,Low,Dr. Miller,25/01/25 3:07,25/01/25 3:51,treated
+P0605,22/01/25 16:29,Medium,Dr. Brown,,,waiting
+P0606,19/01/25 21:37,Critical,Dr. Jones,19/01/25 22:56,20/01/25 5:10,treated
+P0607,19/01/25 22:04,Low,Dr. Brown,19/01/25 23:59,20/01/25 5:58,treated
+P0608,26/01/25 15:29,Medium,Dr. Smith,26/01/25 15:58,,under_treatment
+P0609,15/01/25 21:30,Critical,Dr. Williams,15/01/25 22:18,,under_treatment
+P0610,03/01/25 20:27,Medium,Dr. Brown,,,waiting
+P0611,12/01/25 2:40,Low,Dr. Davis,12/01/25 2:58,,under_treatment
+P0612,24/01/25 0:29,Medium,Dr. Garcia,24/01/25 1:01,,under_treatment
+P0613,30/01/25 5:53,Low,Dr. Williams,30/01/25 6:10,,under_treatment
+P0614,14/01/25 4:32,High,Dr. Miller,14/01/25 4:41,,under_treatment
+P0615,18/01/25 23:49,Medium,Dr. Miller,19/01/25 1:16,19/01/25 2:55,treated
+P0616,25/01/25 10:51,Medium,Dr. Brown,,,waiting
+P0617,04/01/25 8:22,High,Dr. Jones,04/01/25 9:05,,under_treatment
+P0618,14/01/25 4:10,Critical,Dr. Jones,14/01/25 4:50,14/01/25 9:17,treated
+P0619,22/01/25 10:25,Medium,Dr. Miller,,,waiting
+P0620,17/01/25 10:57,Medium,Dr. Jones,17/01/25 12:43,17/01/25 15:30,treated
+P0621,24/01/25 0:45,Medium,Dr. Smith,24/01/25 1:01,,under_treatment
+P0622,04/01/25 6:27,High,Dr. Jones,04/01/25 6:48,04/01/25 10:52,treated
+P0623,26/01/25 14:27,Medium,Dr. Garcia,26/01/25 14:33,26/01/25 17:10,treated
+P0624,15/01/25 14:36,Critical,Dr. Davis,15/01/25 14:53,15/01/25 22:30,treated
+P0625,05/01/25 16:55,Low,Dr. Smith,,,waiting
+P0626,25/01/25 8:09,Critical,Dr. Williams,25/01/25 9:18,,under_treatment
+P0627,15/01/25 15:25,Critical,Dr. Jones,15/01/25 15:59,15/01/25 20:49,treated
+P0628,05/01/25 7:40,Low,Dr. Miller,05/01/25 9:13,,under_treatment
+P0629,21/01/25 23:47,Medium,Dr. Miller,22/01/25 1:05,,under_treatment
+P0630,03/01/25 9:40,Low,Dr. Miller,,,waiting
+P0631,28/01/25 17:55,High,Dr. Brown,,,waiting
+P0632,19/01/25 6:24,Medium,Dr. Garcia,19/01/25 8:21,,under_treatment
+P0633,17/01/25 10:16,Low,Dr. Brown,,,waiting
+P0634,22/01/25 7:51,High,Dr. Brown,,,waiting
+P0635,02/01/25 22:16,Low,Dr. Jones,02/01/25 23:24,,under_treatment
+P0636,04/01/25 14:48,High,Dr. Miller,04/01/25 16:17,04/01/25 23:06,treated
+P0637,06/01/25 12:15,Low,Dr. Davis,06/01/25 13:33,06/01/25 20:02,treated
+P0638,27/01/25 15:27,Critical,Dr. Williams,27/01/25 16:54,,under_treatment
+P0639,23/01/25 2:48,Low,Dr. Davis,23/01/25 4:44,23/01/25 7:30,treated
+P0640,12/01/25 20:00,High,Dr. Williams,12/01/25 21:53,13/01/25 4:50,treated
+P0641,26/01/25 21:35,Critical,Dr. Williams,,,waiting
+P0642,25/01/25 6:44,Low,Dr. Miller,,,waiting
+P0643,27/01/25 14:26,Low,Dr. Brown,27/01/25 15:05,27/01/25 21:02,treated
+P0644,04/01/25 22:55,High,Dr. Davis,05/01/25 0:32,05/01/25 1:15,treated
+P0645,06/01/25 17:53,Low,Dr. Garcia,,,waiting
+P0646,30/01/25 12:38,Medium,Dr. Garcia,,,waiting
+P0647,02/01/25 23:22,Low,Dr. Jones,03/01/25 0:44,03/01/25 3:25,treated
+P0648,23/01/25 16:40,Critical,Dr. Smith,23/01/25 17:14,,under_treatment
+P0649,20/01/25 23:26,Low,Dr. Jones,20/01/25 23:44,,under_treatment
+P0650,01/01/25 17:44,High,Dr. Miller,01/01/25 18:27,,under_treatment
+P0651,11/01/25 22:35,High,Dr. Brown,12/01/25 0:19,,under_treatment
+P0652,18/01/25 6:18,High,Dr. Johnson,18/01/25 6:35,18/01/25 11:39,treated
+P0653,13/01/25 3:13,High,Dr. Brown,13/01/25 3:29,,under_treatment
+P0654,09/01/25 10:22,Critical,Dr. Smith,09/01/25 11:49,09/01/25 14:02,treated
+P0655,04/01/25 10:40,Critical,Dr. Johnson,04/01/25 12:06,04/01/25 15:43,treated
+P0656,07/01/25 6:59,High,Dr. Johnson,,,waiting
+P0657,16/01/25 7:52,Low,Dr. Miller,16/01/25 8:18,16/01/25 14:31,treated
+P0658,06/01/25 21:46,High,Dr. Davis,06/01/25 23:26,07/01/25 5:29,treated
+P0659,07/01/25 18:29,Low,Dr. Smith,07/01/25 20:18,,under_treatment
+P0660,30/01/25 19:50,Critical,Dr. Johnson,,,waiting
+P0661,05/01/25 16:18,High,Dr. Brown,,,waiting
+P0662,03/01/25 9:00,Critical,Dr. Garcia,,,waiting
+P0663,12/01/25 14:38,Low,Dr. Smith,12/01/25 15:48,12/01/25 19:11,treated
+P0664,05/01/25 11:27,Critical,Dr. Miller,05/01/25 13:07,05/01/25 19:20,treated
+P0665,06/01/25 14:10,Medium,Dr. Brown,06/01/25 14:48,,under_treatment
+P0666,16/01/25 15:27,Medium,Dr. Miller,16/01/25 17:23,16/01/25 19:31,treated
+P0667,07/01/25 9:49,Low,Dr. Miller,07/01/25 10:18,,under_treatment
+P0668,25/01/25 15:58,High,Dr. Davis,,,waiting
+P0669,25/01/25 15:23,Medium,Dr. Garcia,25/01/25 15:33,,under_treatment
+P0670,01/01/25 22:57,Medium,Dr. Johnson,,,waiting
+P0671,16/01/25 4:20,High,Dr. Smith,16/01/25 5:19,,under_treatment
+P0672,24/01/25 19:17,Low,Dr. Smith,24/01/25 19:32,,under_treatment
+P0673,16/01/25 5:18,Medium,Dr. Johnson,16/01/25 6:35,,under_treatment
+P0674,23/01/25 2:34,Low,Dr. Garcia,,,waiting
+P0675,27/01/25 17:05,Low,Dr. Johnson,,,waiting
+P0676,18/01/25 23:03,Critical,Dr. Brown,19/01/25 0:06,19/01/25 1:17,treated
+P0677,29/01/25 11:26,Critical,Dr. Williams,,,waiting
+P0678,27/01/25 0:35,Medium,Dr. Williams,27/01/25 2:09,27/01/25 6:22,treated
+P0679,24/01/25 18:30,Critical,Dr. Miller,24/01/25 19:24,25/01/25 1:21,treated
+P0680,15/01/25 10:16,High,Dr. Smith,15/01/25 11:12,15/01/25 13:49,treated
+P0681,06/01/25 15:05,Medium,Dr. Davis,,,waiting
+P0682,22/01/25 4:47,Critical,Dr. Williams,,,waiting
+P0683,24/01/25 23:18,Low,Dr. Davis,25/01/25 0:04,25/01/25 4:37,treated
+P0684,08/01/25 12:58,Medium,Dr. Garcia,,,waiting
+P0685,17/01/25 3:14,High,Dr. Johnson,,,waiting
+P0686,24/01/25 7:35,Critical,Dr. Davis,24/01/25 8:21,24/01/25 10:43,treated
+P0687,16/01/25 16:12,Low,Dr. Brown,,,waiting
+P0688,08/01/25 5:27,Low,Dr. Miller,,,waiting
+P0689,30/01/25 2:24,Critical,Dr. Miller,30/01/25 4:10,,under_treatment
+P0690,26/01/25 22:52,Critical,Dr. Davis,,,waiting
+P0691,02/01/25 9:22,Medium,Dr. Johnson,02/01/25 9:34,,under_treatment
+P0692,28/01/25 12:32,Low,Dr. Johnson,28/01/25 14:05,28/01/25 20:24,treated
+P0693,24/01/25 0:25,Critical,Dr. Miller,24/01/25 1:28,,under_treatment
+P0694,13/01/25 2:51,Medium,Dr. Davis,13/01/25 3:22,,under_treatment
+P0695,15/01/25 17:41,Low,Dr. Davis,15/01/25 18:38,16/01/25 1:29,treated
+P0696,24/01/25 23:30,Low,Dr. Davis,,,waiting
+P0697,03/01/25 18:34,Medium,Dr. Smith,03/01/25 20:10,,under_treatment
+P0698,28/01/25 23:29,Low,Dr. Johnson,,,waiting
+P0699,15/01/25 21:57,Critical,Dr. Miller,15/01/25 23:32,16/01/25 6:47,treated
+P0700,03/01/25 5:50,Low,Dr. Johnson,03/01/25 7:31,03/01/25 13:57,treated
+P0701,08/01/25 16:59,High,Dr. Williams,,,waiting
+P0702,13/01/25 18:15,Critical,Dr. Jones,13/01/25 19:54,,under_treatment
+P0703,09/01/25 22:23,Low,Dr. Miller,10/01/25 0:05,10/01/25 6:28,treated
+P0704,10/01/25 1:38,High,Dr. Garcia,10/01/25 3:15,10/01/25 6:40,treated
+P0705,22/01/25 6:02,Critical,Dr. Brown,,,waiting
+P0706,09/01/25 7:47,Medium,Dr. Williams,,,waiting
+P0707,08/01/25 10:43,Critical,Dr. Williams,08/01/25 11:47,,under_treatment
+P0708,04/01/25 23:38,Critical,Dr. Johnson,05/01/25 0:08,,under_treatment
+P0709,12/01/25 22:11,Low,Dr. Garcia,12/01/25 23:56,,under_treatment
+P0710,23/01/25 19:01,Critical,Dr. Jones,,,waiting
+P0711,14/01/25 16:31,High,Dr. Davis,14/01/25 16:45,14/01/25 21:57,treated
+P0712,02/01/25 21:11,High,Dr. Brown,02/01/25 22:07,,under_treatment
+P0713,18/01/25 4:29,Medium,Dr. Miller,,,waiting
+P0714,08/01/25 2:17,High,Dr. Jones,08/01/25 2:34,,under_treatment
+P0715,12/01/25 23:59,Low,Dr. Miller,13/01/25 0:44,13/01/25 6:28,treated
+P0716,16/01/25 4:48,Critical,Dr. Jones,16/01/25 5:02,,under_treatment
+P0717,26/01/25 4:49,High,Dr. Garcia,26/01/25 6:04,26/01/25 8:27,treated
+P0718,15/01/25 12:00,Critical,Dr. Miller,,,waiting
+P0719,22/01/25 11:13,Low,Dr. Brown,22/01/25 11:35,,under_treatment
+P0720,29/01/25 3:56,High,Dr. Williams,29/01/25 4:19,29/01/25 7:29,treated
+P0721,14/01/25 4:58,Low,Dr. Williams,14/01/25 6:39,,under_treatment
+P0722,22/01/25 5:52,High,Dr. Garcia,22/01/25 7:20,,under_treatment
+P0723,14/01/25 18:40,Medium,Dr. Garcia,14/01/25 20:20,,under_treatment
+P0724,14/01/25 3:10,Medium,Dr. Miller,,,waiting
+P0725,11/01/25 18:24,Low,Dr. Miller,11/01/25 19:34,12/01/25 1:56,treated
+P0726,30/01/25 20:27,High,Dr. Williams,30/01/25 22:20,31/01/25 1:19,treated
+P0727,12/01/25 20:33,Critical,Dr. Smith,12/01/25 21:04,,under_treatment
+P0728,28/01/25 17:37,Low,Dr. Brown,28/01/25 18:35,,under_treatment
+P0729,29/01/25 20:23,Critical,Dr. Johnson,,,waiting
+P0730,16/01/25 20:40,Critical,Dr. Miller,16/01/25 22:24,17/01/25 4:31,treated
+P0731,07/01/25 2:37,High,Dr. Garcia,,,waiting
+P0732,02/01/25 6:58,Medium,Dr. Jones,02/01/25 8:19,,under_treatment
+P0733,23/01/25 5:13,High,Dr. Smith,23/01/25 5:27,,under_treatment
+P0734,28/01/25 9:23,Medium,Dr. Smith,,,waiting
+P0735,23/01/25 17:27,Low,Dr. Johnson,,,waiting
+P0736,30/01/25 12:11,Medium,Dr. Brown,30/01/25 13:44,30/01/25 19:14,treated
+P0737,23/01/25 0:32,Medium,Dr. Jones,23/01/25 2:19,,under_treatment
+P0738,02/01/25 12:07,Critical,Dr. Davis,,,waiting
+P0739,20/01/25 1:37,High,Dr. Garcia,20/01/25 1:44,,under_treatment
+P0740,02/01/25 21:16,High,Dr. Williams,02/01/25 21:45,03/01/25 1:30,treated
+P0741,28/01/25 5:52,Critical,Dr. Garcia,28/01/25 7:03,28/01/25 10:00,treated
+P0742,06/01/25 5:51,Low,Dr. Jones,,,waiting
+P0743,16/01/25 15:09,Medium,Dr. Davis,,,waiting
+P0744,20/01/25 1:35,Medium,Dr. Smith,,,waiting
+P0745,06/01/25 11:39,Low,Dr. Williams,06/01/25 12:55,,under_treatment
+P0746,09/01/25 17:11,High,Dr. Williams,09/01/25 18:19,10/01/25 1:17,treated
+P0747,21/01/25 14:36,Critical,Dr. Johnson,21/01/25 15:41,21/01/25 18:17,treated
+P0748,11/01/25 19:34,Medium,Dr. Davis,11/01/25 20:10,,under_treatment
+P0749,17/01/25 1:46,Low,Dr. Johnson,17/01/25 1:52,,under_treatment
+P0750,22/01/25 3:52,Low,Dr. Brown,22/01/25 4:04,22/01/25 10:41,treated
+P0751,23/01/25 22:58,Medium,Dr. Garcia,24/01/25 0:20,,under_treatment
+P0752,07/01/25 5:23,Critical,Dr. Miller,07/01/25 6:55,07/01/25 9:59,treated
+P0753,29/01/25 16:51,Critical,Dr. Williams,29/01/25 17:11,30/01/25 0:10,treated
+P0754,04/01/25 21:05,High,Dr. Brown,,,waiting
+P0755,21/01/25 6:59,Critical,Dr. Davis,21/01/25 8:12,21/01/25 14:57,treated
+P0756,18/01/25 1:25,High,Dr. Smith,,,waiting
+P0757,11/01/25 1:14,Low,Dr. Garcia,11/01/25 3:08,,under_treatment
+P0758,15/01/25 22:16,Low,Dr. Johnson,15/01/25 23:09,16/01/25 1:21,treated
+P0759,15/01/25 4:52,Medium,Dr. Miller,,,waiting
+P0760,24/01/25 4:06,Low,Dr. Johnson,,,waiting
+P0761,05/01/25 3:29,Low,Dr. Johnson,,,waiting
+P0762,16/01/25 2:05,High,Dr. Jones,16/01/25 2:15,16/01/25 6:43,treated
+P0763,06/01/25 9:38,High,Dr. Smith,06/01/25 10:42,,under_treatment
+P0764,20/01/25 19:00,High,Dr. Miller,,,waiting
+P0765,17/01/25 4:51,Medium,Dr. Smith,17/01/25 6:04,,under_treatment
+P0766,02/01/25 10:59,Critical,Dr. Smith,02/01/25 11:31,,under_treatment
+P0767,04/01/25 8:57,High,Dr. Brown,04/01/25 9:05,04/01/25 11:33,treated
+P0768,01/01/25 14:01,Critical,Dr. Garcia,,,waiting
+P0769,15/01/25 2:28,Critical,Dr. Smith,15/01/25 4:20,,under_treatment
+P0770,05/01/25 4:24,Low,Dr. Davis,05/01/25 5:58,05/01/25 9:53,treated
+P0771,13/01/25 22:36,High,Dr. Johnson,14/01/25 0:29,,under_treatment
+P0772,14/01/25 3:36,High,Dr. Johnson,14/01/25 4:43,14/01/25 12:05,treated
+P0773,13/01/25 4:37,Medium,Dr. Garcia,,,waiting
+P0774,19/01/25 10:37,Low,Dr. Miller,19/01/25 10:58,19/01/25 12:51,treated
+P0775,07/01/25 6:23,Low,Dr. Brown,07/01/25 7:12,,under_treatment
+P0776,15/01/25 9:18,Medium,Dr. Miller,,,waiting
+P0777,15/01/25 23:45,Critical,Dr. Johnson,,,waiting
+P0778,03/01/25 2:51,High,Dr. Smith,,,waiting
+P0779,19/01/25 11:00,Low,Dr. Jones,,,waiting
+P0780,25/01/25 23:49,Low,Dr. Jones,,,waiting
+P0781,20/01/25 6:49,Medium,Dr. Johnson,20/01/25 7:22,20/01/25 7:54,treated
+P0782,22/01/25 20:29,High,Dr. Garcia,22/01/25 22:24,23/01/25 4:45,treated
+P0783,30/01/25 7:52,Low,Dr. Williams,30/01/25 9:24,,under_treatment
+P0784,03/01/25 21:48,Medium,Dr. Smith,03/01/25 23:35,04/01/25 6:39,treated
+P0785,20/01/25 22:12,Medium,Dr. Jones,,,waiting
+P0786,23/01/25 8:44,Low,Dr. Jones,23/01/25 10:32,,under_treatment
+P0787,09/01/25 5:00,Medium,Dr. Garcia,09/01/25 5:31,,under_treatment
+P0788,09/01/25 12:54,High,Dr. Garcia,09/01/25 14:33,,under_treatment
+P0789,24/01/25 16:58,Medium,Dr. Miller,24/01/25 17:55,,under_treatment
+P0790,06/01/25 8:57,Low,Dr. Garcia,06/01/25 10:21,,under_treatment
+P0791,29/01/25 10:22,Low,Dr. Johnson,29/01/25 10:37,29/01/25 16:49,treated
+P0792,18/01/25 8:50,Low,Dr. Smith,18/01/25 10:05,18/01/25 16:07,treated
+P0793,09/01/25 7:50,Critical,Dr. Miller,,,waiting
+P0794,06/01/25 14:21,Low,Dr. Davis,,,waiting
+P0795,09/01/25 7:02,Low,Dr. Garcia,,,waiting
+P0796,25/01/25 5:46,Critical,Dr. Johnson,,,waiting
+P0797,21/01/25 2:54,Medium,Dr. Jones,,,waiting
+P0798,05/01/25 19:06,Critical,Dr. Johnson,,,waiting
+P0799,21/01/25 21:40,High,Dr. Miller,,,waiting
+P0800,02/01/25 22:27,Low,Dr. Miller,,,waiting
+P0801,06/01/25 4:00,Critical,Dr. Garcia,,,waiting
+P0802,26/01/25 8:01,Medium,Dr. Miller,26/01/25 8:10,,under_treatment
+P0803,03/01/25 23:08,High,Dr. Miller,,,waiting
+P0804,01/01/25 1:49,Critical,Dr. Williams,01/01/25 2:37,01/01/25 10:05,treated
+P0805,11/01/25 14:49,Medium,Dr. Williams,11/01/25 15:03,11/01/25 19:39,treated
+P0806,24/01/25 16:30,High,Dr. Brown,24/01/25 17:18,24/01/25 22:23,treated
+P0807,13/01/25 14:39,Low,Dr. Williams,,,waiting
+P0808,20/01/25 21:10,High,Dr. Johnson,20/01/25 21:36,,under_treatment
+P0809,14/01/25 15:35,High,Dr. Brown,14/01/25 16:25,,under_treatment
+P0810,28/01/25 16:13,Low,Dr. Garcia,28/01/25 17:43,28/01/25 18:54,treated
+P0811,22/01/25 3:01,Low,Dr. Smith,22/01/25 3:38,,under_treatment
+P0812,22/01/25 23:00,High,Dr. Miller,,,waiting
+P0813,27/01/25 22:13,Low,Dr. Garcia,27/01/25 23:47,28/01/25 1:33,treated
+P0814,11/01/25 11:10,Medium,Dr. Johnson,,,waiting
+P0815,02/01/25 17:09,High,Dr. Smith,,,waiting
+P0816,22/01/25 17:03,Medium,Dr. Williams,22/01/25 19:01,,under_treatment
+P0817,02/01/25 5:11,High,Dr. Davis,02/01/25 6:45,,under_treatment
+P0818,14/01/25 23:16,High,Dr. Smith,15/01/25 0:53,,under_treatment
+P0819,05/01/25 8:04,Medium,Dr. Johnson,05/01/25 10:04,,under_treatment
+P0820,08/01/25 19:06,Medium,Dr. Jones,,,waiting
+P0821,19/01/25 15:03,Low,Dr. Davis,19/01/25 17:01,19/01/25 18:50,treated
+P0822,07/01/25 7:50,Low,Dr. Jones,,,waiting
+P0823,05/01/25 22:51,Low,Dr. Brown,,,waiting
+P0824,06/01/25 12:42,Critical,Dr. Davis,06/01/25 13:21,,under_treatment
+P0825,17/01/25 17:55,High,Dr. Jones,17/01/25 18:35,,under_treatment
+P0826,25/01/25 10:34,Low,Dr. Johnson,,,waiting
+P0827,09/01/25 15:43,High,Dr. Johnson,09/01/25 17:16,,under_treatment
+P0828,01/01/25 23:37,Critical,Dr. Davis,,,waiting
+P0829,04/01/25 1:08,Low,Dr. Jones,04/01/25 2:54,04/01/25 4:51,treated
+P0830,20/01/25 5:16,High,Dr. Brown,,,waiting
+P0831,11/01/25 10:24,Critical,Dr. Brown,,,waiting
+P0832,01/01/25 4:05,Medium,Dr. Brown,,,waiting
+P0833,10/01/25 9:19,High,Dr. Jones,,,waiting
+P0834,15/01/25 10:14,Critical,Dr. Jones,15/01/25 10:53,15/01/25 15:12,treated
+P0835,22/01/25 14:29,Medium,Dr. Smith,22/01/25 15:25,,under_treatment
+P0836,28/01/25 2:27,High,Dr. Jones,28/01/25 4:06,28/01/25 10:26,treated
+P0837,25/01/25 13:03,High,Dr. Jones,,,waiting
+P0838,13/01/25 14:06,Critical,Dr. Jones,,,waiting
+P0839,21/01/25 4:45,Medium,Dr. Miller,21/01/25 6:07,21/01/25 10:22,treated
+P0840,12/01/25 21:29,High,Dr. Johnson,12/01/25 21:53,,under_treatment
+P0841,23/01/25 19:28,High,Dr. Williams,23/01/25 19:46,24/01/25 2:21,treated
+P0842,25/01/25 9:04,Medium,Dr. Davis,,,waiting
+P0843,23/01/25 0:39,Medium,Dr. Smith,23/01/25 1:57,,under_treatment
+P0844,21/01/25 14:53,Low,Dr. Johnson,,,waiting
+P0845,02/01/25 4:39,Medium,Dr. Brown,02/01/25 6:17,02/01/25 13:07,treated
+P0846,26/01/25 20:15,Critical,Dr. Davis,26/01/25 21:20,,under_treatment
+P0847,07/01/25 20:30,Medium,Dr. Garcia,07/01/25 21:17,08/01/25 0:27,treated
+P0848,12/01/25 2:20,Medium,Dr. Garcia,12/01/25 2:54,,under_treatment
+P0849,15/01/25 9:43,High,Dr. Miller,,,waiting
+P0850,21/01/25 23:28,Low,Dr. Williams,22/01/25 0:10,22/01/25 7:38,treated
+P0851,17/01/25 15:57,Medium,Dr. Williams,17/01/25 17:10,17/01/25 17:43,treated
+P0852,27/01/25 23:03,High,Dr. Miller,27/01/25 23:37,,under_treatment
+P0853,06/01/25 11:36,Critical,Dr. Brown,06/01/25 12:17,06/01/25 13:31,treated
+P0854,25/01/25 21:24,Critical,Dr. Smith,25/01/25 23:20,26/01/25 5:45,treated
+P0855,05/01/25 17:18,Medium,Dr. Williams,05/01/25 17:45,,under_treatment
+P0856,29/01/25 13:14,High,Dr. Johnson,29/01/25 14:30,29/01/25 20:02,treated
+P0857,20/01/25 10:43,Low,Dr. Johnson,20/01/25 11:54,20/01/25 19:39,treated
+P0858,22/01/25 2:54,Medium,Dr. Jones,,,waiting
+P0859,17/01/25 15:47,Medium,Dr. Johnson,17/01/25 15:53,,under_treatment
+P0860,04/01/25 16:57,Low,Dr. Jones,04/01/25 17:36,,under_treatment
+P0861,25/01/25 23:23,High,Dr. Jones,25/01/25 23:49,,under_treatment
+P0862,10/01/25 19:53,High,Dr. Johnson,10/01/25 21:52,11/01/25 1:26,treated
+P0863,02/01/25 2:36,High,Dr. Garcia,02/01/25 2:58,,under_treatment
+P0864,09/01/25 5:37,High,Dr. Smith,,,waiting
+P0865,03/01/25 2:04,Low,Dr. Brown,,,waiting
+P0866,11/01/25 22:15,High,Dr. Garcia,11/01/25 22:22,12/01/25 5:03,treated
+P0867,15/01/25 20:37,Critical,Dr. Brown,15/01/25 22:31,,under_treatment
+P0868,27/01/25 7:54,Low,Dr. Smith,,,waiting
+P0869,11/01/25 3:19,Critical,Dr. Williams,,,waiting
+P0870,09/01/25 17:58,Low,Dr. Williams,,,waiting
+P0871,12/01/25 6:32,Medium,Dr. Miller,,,waiting
+P0872,21/01/25 11:28,High,Dr. Garcia,21/01/25 12:20,,under_treatment
+P0873,14/01/25 18:36,Low,Dr. Johnson,14/01/25 20:24,,under_treatment
+P0874,30/01/25 11:30,Critical,Dr. Davis,,,waiting
+P0875,27/01/25 5:45,Medium,Dr. Johnson,,,waiting
+P0876,12/01/25 18:40,Medium,Dr. Miller,,,waiting
+P0877,14/01/25 2:46,High,Dr. Brown,14/01/25 2:57,14/01/25 10:30,treated
+P0878,04/01/25 23:40,Critical,Dr. Brown,,,waiting
+P0879,01/01/25 5:41,Low,Dr. Brown,01/01/25 7:10,,under_treatment
+P0880,04/01/25 10:18,Medium,Dr. Miller,04/01/25 11:33,04/01/25 12:04,treated
+P0881,23/01/25 10:30,Critical,Dr. Smith,,,waiting
+P0882,01/01/25 20:09,Critical,Dr. Miller,01/01/25 21:03,01/01/25 21:56,treated
+P0883,22/01/25 7:58,Low,Dr. Davis,,,waiting
+P0884,10/01/25 15:54,Medium,Dr. Smith,10/01/25 17:53,10/01/25 22:07,treated
+P0885,09/01/25 0:02,Low,Dr. Jones,09/01/25 1:09,,under_treatment
+P0886,25/01/25 11:42,Medium,Dr. Miller,25/01/25 13:17,,under_treatment
+P0887,07/01/25 14:17,Critical,Dr. Williams,,,waiting
+P0888,03/01/25 0:25,High,Dr. Garcia,03/01/25 1:11,03/01/25 3:40,treated
+P0889,28/01/25 8:17,High,Dr. Johnson,28/01/25 9:11,,under_treatment
+P0890,07/01/25 22:28,Low,Dr. Smith,07/01/25 22:53,,under_treatment
+P0891,30/01/25 7:24,Low,Dr. Garcia,,,waiting
+P0892,27/01/25 14:07,High,Dr. Miller,27/01/25 15:48,27/01/25 18:15,treated
+P0893,01/01/25 9:56,Critical,Dr. Davis,01/01/25 11:17,,under_treatment
+P0894,06/01/25 22:51,High,Dr. Jones,,,waiting
+P0895,06/01/25 14:27,Low,Dr. Jones,,,waiting
+P0896,02/01/25 16:47,High,Dr. Johnson,,,waiting
+P0897,04/01/25 2:53,High,Dr. Garcia,,,waiting
+P0898,06/01/25 23:15,Medium,Dr. Johnson,,,waiting
+P0899,07/01/25 1:22,High,Dr. Garcia,,,waiting
+P0900,09/01/25 10:43,Medium,Dr. Williams,09/01/25 12:42,09/01/25 19:46,treated
+P0901,25/01/25 22:38,Medium,Dr. Johnson,26/01/25 0:37,,under_treatment
+P0902,10/01/25 14:36,Low,Dr. Smith,,,waiting
+P0903,30/01/25 9:31,High,Dr. Johnson,,,waiting
+P0904,20/01/25 1:33,Medium,Dr. Smith,,,waiting
+P0905,14/01/25 4:12,Low,Dr. Williams,,,waiting
+P0906,29/01/25 12:20,Low,Dr. Miller,,,waiting
+P0907,10/01/25 20:16,Low,Dr. Garcia,,,waiting
+P0908,05/01/25 5:02,Medium,Dr. Smith,05/01/25 5:50,05/01/25 13:02,treated
+P0909,14/01/25 19:15,Critical,Dr. Jones,14/01/25 20:11,,under_treatment
+P0910,03/01/25 10:26,Medium,Dr. Davis,,,waiting
+P0911,26/01/25 14:30,Medium,Dr. Davis,26/01/25 16:22,26/01/25 22:21,treated
+P0912,29/01/25 8:27,Medium,Dr. Garcia,29/01/25 10:12,29/01/25 13:27,treated
+P0913,15/01/25 17:04,High,Dr. Garcia,15/01/25 18:04,,under_treatment
+P0914,02/01/25 15:35,Critical,Dr. Johnson,02/01/25 17:01,02/01/25 21:44,treated
+P0915,09/01/25 12:16,Critical,Dr. Garcia,09/01/25 14:08,09/01/25 14:49,treated
+P0916,14/01/25 6:57,Low,Dr. Smith,14/01/25 8:02,14/01/25 14:46,treated
+P0917,12/01/25 21:57,Low,Dr. Smith,12/01/25 23:26,13/01/25 6:49,treated
+P0918,19/01/25 19:57,Low,Dr. Smith,19/01/25 21:24,20/01/25 4:55,treated
+P0919,14/01/25 20:08,Critical,Dr. Williams,14/01/25 21:12,,under_treatment
+P0920,22/01/25 4:08,Critical,Dr. Johnson,22/01/25 6:00,22/01/25 10:12,treated
+P0921,25/01/25 19:53,Critical,Dr. Williams,25/01/25 20:33,25/01/25 23:31,treated
+P0922,28/01/25 11:39,Low,Dr. Miller,28/01/25 12:13,28/01/25 16:11,treated
+P0923,13/01/25 1:32,Low,Dr. Smith,,,waiting
+P0924,25/01/25 13:53,Low,Dr. Johnson,25/01/25 15:26,,under_treatment
+P0925,02/01/25 22:04,Critical,Dr. Williams,,,waiting
+P0926,29/01/25 4:53,Critical,Dr. Davis,29/01/25 5:55,29/01/25 12:38,treated
+P0927,24/01/25 5:35,Low,Dr. Brown,24/01/25 7:33,,under_treatment
+P0928,16/01/25 11:16,High,Dr. Miller,,,waiting
+P0929,02/01/25 20:17,Medium,Dr. Brown,,,waiting
+P0930,23/01/25 16:19,Low,Dr. Jones,23/01/25 16:46,,under_treatment
+P0931,05/01/25 19:05,Medium,Dr. Garcia,05/01/25 20:55,,under_treatment
+P0932,19/01/25 11:49,Medium,Dr. Johnson,19/01/25 13:46,19/01/25 14:40,treated
+P0933,06/01/25 20:59,Critical,Dr. Williams,06/01/25 21:30,,under_treatment
+P0934,05/01/25 21:17,Low,Dr. Johnson,,,waiting
+P0935,19/01/25 20:25,Medium,Dr. Smith,19/01/25 21:01,20/01/25 3:28,treated
+P0936,19/01/25 12:10,High,Dr. Brown,19/01/25 13:51,,under_treatment
+P0937,30/01/25 12:57,Low,Dr. Williams,30/01/25 13:05,,under_treatment
+P0938,16/01/25 4:16,Medium,Dr. Smith,,,waiting
+P0939,28/01/25 9:57,Low,Dr. Smith,28/01/25 11:37,28/01/25 19:30,treated
+P0940,26/01/25 10:53,Critical,Dr. Garcia,,,waiting
+P0941,20/01/25 3:50,High,Dr. Brown,20/01/25 4:52,,under_treatment
+P0942,10/01/25 3:43,Critical,Dr. Smith,10/01/25 4:20,10/01/25 5:38,treated
+P0943,20/01/25 23:32,Low,Dr. Jones,,,waiting
+P0944,21/01/25 22:16,Low,Dr. Brown,21/01/25 23:17,,under_treatment
+P0945,17/01/25 10:44,Low,Dr. Garcia,17/01/25 11:00,17/01/25 12:36,treated
+P0946,09/01/25 18:33,High,Dr. Williams,09/01/25 18:47,09/01/25 20:05,treated
+P0947,26/01/25 6:18,High,Dr. Johnson,,,waiting
+P0948,26/01/25 13:43,Critical,Dr. Johnson,26/01/25 15:31,,under_treatment
+P0949,25/01/25 2:24,Medium,Dr. Miller,25/01/25 2:31,25/01/25 4:46,treated
+P0950,22/01/25 2:36,Low,Dr. Smith,22/01/25 3:15,22/01/25 10:47,treated
+P0951,18/01/25 18:46,Critical,Dr. Miller,,,waiting
+P0952,22/01/25 10:48,Low,Dr. Smith,22/01/25 11:37,,under_treatment
+P0953,01/01/25 21:22,High,Dr. Smith,01/01/25 22:19,,under_treatment
+P0954,08/01/25 7:41,High,Dr. Davis,08/01/25 8:49,08/01/25 11:35,treated
+P0955,14/01/25 22:00,High,Dr. Garcia,14/01/25 23:48,,under_treatment
+P0956,28/01/25 18:34,High,Dr. Davis,28/01/25 18:50,28/01/25 19:43,treated
+P0957,06/01/25 23:14,Low,Dr. Miller,,,waiting
+P0958,23/01/25 15:39,Critical,Dr. Jones,23/01/25 16:21,,under_treatment
+P0959,01/01/25 21:50,Low,Dr. Jones,,,waiting
+P0960,25/01/25 10:56,Critical,Dr. Smith,25/01/25 12:45,,under_treatment
+P0961,09/01/25 2:32,Low,Dr. Williams,,,waiting
+P0962,25/01/25 22:33,Low,Dr. Williams,,,waiting
+P0963,01/01/25 5:40,Critical,Dr. Williams,,,waiting
+P0964,22/01/25 8:33,Medium,Dr. Jones,,,waiting
+P0965,28/01/25 2:07,High,Dr. Brown,28/01/25 3:29,,under_treatment
+P0966,27/01/25 6:33,Critical,Dr. Johnson,,,waiting
+P0967,16/01/25 0:33,Medium,Dr. Garcia,16/01/25 1:36,,under_treatment
+P0968,18/01/25 22:47,Low,Dr. Brown,19/01/25 0:35,19/01/25 7:50,treated
+P0969,04/01/25 23:36,Low,Dr. Jones,05/01/25 1:06,05/01/25 2:01,treated
+P0970,03/01/25 22:40,High,Dr. Johnson,,,waiting
+P0971,21/01/25 19:34,Low,Dr. Johnson,21/01/25 20:49,,under_treatment
+P0972,17/01/25 6:34,Critical,Dr. Jones,17/01/25 7:12,17/01/25 11:04,treated
+P0973,03/01/25 19:02,High,Dr. Garcia,03/01/25 19:09,,under_treatment
+P0974,11/01/25 21:22,Low,Dr. Johnson,11/01/25 23:08,12/01/25 1:20,treated
+P0975,15/01/25 10:43,Low,Dr. Miller,15/01/25 11:18,,under_treatment
+P0976,21/01/25 16:44,Critical,Dr. Davis,21/01/25 17:26,,under_treatment
+P0977,30/01/25 22:11,Low,Dr. Smith,30/01/25 22:36,,under_treatment
+P0978,16/01/25 3:22,Critical,Dr. Johnson,,,waiting
+P0979,02/01/25 10:23,Critical,Dr. Brown,02/01/25 12:09,02/01/25 18:10,treated
+P0980,24/01/25 17:06,Medium,Dr. Miller,24/01/25 18:25,24/01/25 19:50,treated
+P0981,20/01/25 16:53,Medium,Dr. Brown,20/01/25 18:52,,under_treatment
+P0982,29/01/25 19:19,Low,Dr. Smith,29/01/25 19:34,,under_treatment
+P0983,18/01/25 7:43,Medium,Dr. Jones,18/01/25 8:43,18/01/25 13:01,treated
+P0984,04/01/25 11:45,High,Dr. Miller,,,waiting
+P0985,25/01/25 2:03,Critical,Dr. Jones,25/01/25 3:44,25/01/25 7:19,treated
+P0986,25/01/25 8:57,Critical,Dr. Johnson,25/01/25 9:15,,under_treatment
+P0987,04/01/25 4:09,Critical,Dr. Brown,04/01/25 5:46,04/01/25 11:33,treated
+P0988,24/01/25 2:28,Low,Dr. Davis,,,waiting
+P0989,04/01/25 19:41,High,Dr. Williams,04/01/25 21:09,04/01/25 22:13,treated
+P0990,01/01/25 8:30,Critical,Dr. Johnson,,,waiting
+P0991,06/01/25 3:31,Low,Dr. Brown,06/01/25 4:31,,under_treatment
+P0992,01/01/25 11:54,Critical,Dr. Miller,01/01/25 13:33,01/01/25 14:29,treated
+P0993,22/01/25 4:40,Low,Dr. Brown,22/01/25 6:14,,under_treatment
+P0994,20/01/25 22:09,Medium,Dr. Davis,,,waiting
+P0995,11/01/25 22:53,Critical,Dr. Davis,12/01/25 0:34,,under_treatment
+P0996,27/01/25 2:11,Medium,Dr. Miller,,,waiting
+P0997,23/01/25 23:57,High,Dr. Johnson,,,waiting
+P0998,20/01/25 21:16,High,Dr. Brown,,,waiting
+P0999,19/01/25 8:42,Medium,Dr. Brown,19/01/25 10:33,,under_treatment
+P1000,23/01/25 4:10,Low,Dr. Brown,,,waiting
+P1001,2025-01-02 04:08:00,High,Dr. Johnson,2025-01-02 05:02:00,,under_treatment
+P1002,2025-01-26 12:59:00,High,Dr. Garcia,2025-01-26 14:30:00,2025-01-26 15:09:00,treated
+P1003,2025-01-11 15:07:00,Critical,Dr. Miller,2025-01-11 16:53:00,,under_treatment
+P1004,2025-01-22 17:07:00,High,Dr. Garcia,2025-01-22 18:42:00,2025-01-22 19:32:00,treated
+P1005,2025-01-19 03:43:00,Medium,Dr. Miller,2025-01-19 05:07:00,2025-01-19 09:07:00,treated
+P1006,2025-01-17 17:26:00,High,Dr. Jones,,,waiting
+P1007,2025-01-22 13:41:00,High,Dr. Garcia,2025-01-22 14:03:00,,under_treatment
+P1008,2025-01-22 17:41:00,Low,Dr. Johnson,2025-01-22 17:57:00,2025-01-22 21:39:00,treated
+P1009,2025-01-17 19:10:00,Medium,Dr. Miller,2025-01-17 20:21:00,,under_treatment
+P1010,2025-01-02 04:22:00,Low,Dr. Jones,2025-01-02 05:03:00,,under_treatment
+P1011,2025-01-28 02:43:00,Critical,Dr. Brown,2025-01-28 03:46:00,,under_treatment
+P1012,2025-01-17 09:53:00,Medium,Dr. Williams,2025-01-17 11:32:00,,under_treatment
+P1013,2025-01-27 14:49:00,Critical,Dr. Davis,,,waiting
+P1014,2025-01-17 12:55:00,High,Dr. Williams,2025-01-17 13:32:00,,under_treatment
+P1015,2025-01-07 15:32:00,Medium,Dr. Smith,2025-01-07 16:55:00,,under_treatment
+P1016,2025-01-03 01:32:00,High,Dr. Miller,,,waiting
+P1017,2025-01-19 00:00:00,Critical,Dr. Williams,,,waiting
+P1018,2025-01-02 18:48:00,Critical,Dr. Jones,,,waiting
+P1019,2025-01-01 14:20:00,Medium,Dr. Davis,2025-01-01 16:10:00,2025-01-01 23:37:00,treated
+P1020,2025-01-08 03:24:00,Low,Dr. Davis,2025-01-08 04:03:00,2025-01-08 06:01:00,treated
+P1021,2025-01-27 01:52:00,Medium,Dr. Johnson,2025-01-27 03:51:00,,under_treatment
+P1022,2025-01-22 13:52:00,Low,Dr. Smith,2025-01-22 14:38:00,2025-01-22 16:54:00,treated
+P1023,2025-01-01 18:01:00,Low,Dr. Johnson,2025-01-01 18:51:00,2025-01-01 23:06:00,treated
+P1024,2025-01-19 09:24:00,High,Dr. Jones,,,waiting
+P1025,2025-01-10 08:45:00,Medium,Dr. Brown,2025-01-10 10:13:00,,under_treatment
+P1026,2025-01-22 20:42:00,High,Dr. Davis,,,waiting
+P1027,2025-01-09 23:24:00,Low,Dr. Jones,2025-01-10 01:14:00,2025-01-10 06:50:00,treated
+P1028,2025-01-09 08:46:00,High,Dr. Garcia,2025-01-09 10:35:00,2025-01-09 12:17:00,treated
+P1029,2025-01-27 21:48:00,High,Dr. Garcia,2025-01-27 22:49:00,2025-01-27 23:59:00,treated
+P1030,2025-01-08 11:29:00,High,Dr. Garcia,2025-01-08 12:18:00,,under_treatment
+P1031,2025-01-17 15:46:00,Medium,Dr. Smith,,,waiting
+P1032,2025-01-28 02:08:00,Low,Dr. Jones,,,waiting
+P1033,2025-01-11 22:23:00,Medium,Dr. Jones,2025-01-11 23:13:00,,under_treatment
+P1034,2025-01-19 07:00:00,Medium,Dr. Davis,2025-01-19 08:07:00,,under_treatment
+P1035,2025-01-15 08:40:00,Low,Dr. Smith,2025-01-15 10:39:00,2025-01-15 17:35:00,treated
+P1036,2025-01-03 10:15:00,Low,Dr. Jones,2025-01-03 11:04:00,2025-01-03 16:32:00,treated
+P1037,2025-01-10 12:50:00,Critical,Dr. Miller,2025-01-10 14:25:00,,under_treatment
+P1038,2025-01-15 23:35:00,Low,Dr. Garcia,2025-01-16 01:17:00,,under_treatment
+P1039,2025-01-26 12:37:00,Low,Dr. Johnson,2025-01-26 13:08:00,,under_treatment
+P1040,2025-01-27 02:32:00,Low,Dr. Miller,,,waiting
+P1041,2025-01-14 09:52:00,Low,Dr. Johnson,2025-01-14 11:05:00,,under_treatment
+P1042,2025-01-01 15:27:00,Low,Dr. Davis,2025-01-01 16:09:00,2025-01-01 19:54:00,treated
+P1043,2025-01-05 17:47:00,Low,Dr. Johnson,2025-01-05 19:24:00,2025-01-06 00:38:00,treated
+P1044,2025-01-01 19:19:00,Low,Dr. Davis,2025-01-01 20:19:00,2025-01-02 03:12:00,treated
+P1045,2025-01-18 12:03:00,High,Dr. Jones,2025-01-18 12:11:00,,under_treatment
+P1046,2025-01-29 18:13:00,Medium,Dr. Johnson,2025-01-29 18:57:00,2025-01-29 19:30:00,treated
+P1047,2025-01-22 21:06:00,Low,Dr. Garcia,2025-01-22 22:00:00,,under_treatment
+P1048,2025-01-08 09:55:00,Low,Dr. Garcia,2025-01-08 10:21:00,,under_treatment
+P1049,2025-01-20 13:43:00,High,Dr. Williams,2025-01-20 14:02:00,2025-01-20 18:53:00,treated
+P1050,2025-01-10 02:38:00,Critical,Dr. Garcia,,,waiting
