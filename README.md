@@ -14,4 +14,4 @@ Build an **ER Patient Monitoring Pipeline** that ingests patient data, transform
 
 ## Data Architecture
 The architecture (Data flow) used in this project uses different Open source and cloud components as described below:
-
+![Workflow Diagram](work_flow_diag.png)
