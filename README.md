@@ -166,6 +166,9 @@ This ensures that the AWS Glue Data Catalog is updated successfully after the ET
 - improves pipeline reliability through validation and error handling
 
 ## Outcome
+
+![Workflow Diagram](Orchestrator_er.png)
+
 With Prefect orchestration, the ER Patient Monitoring Pipeline becomes an automated end-to-end workflow. It ensures that source data is uploaded, the ETL job is executed successfully, and the processed data is cataloged properly for downstream analytics and reporting.
 
 ## Tools Used
